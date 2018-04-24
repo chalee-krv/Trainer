@@ -33,9 +33,12 @@
     font-weight: 100;
 }
 
+body {
+    font-family: "SF Pro TH", sans-serif;
+}
+
 .hp {
     background-color: #636363;
-    font-family: "SF Pro TH", sans-serif;
 }
 
 .global-nav {
@@ -212,4 +215,15 @@
     position: absolute;
     width: 100%;
     top: 80px;
+}
+
+.timetable {
+    background-color: white;
+}
+
+.timetable-pic {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
 }

@@ -292,6 +292,7 @@ body {
 .b {
     height: 100%;
     margin-top: 10px;
+    background: url("../images/map result.png") right;
 }
 
 .label {
@@ -387,4 +388,40 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.ct-detail {
+    position: absolute;
+    top: 15em;
+    left: 58%;
+    font-family: "Titillium Web",sans-serif;
+    color: black;
+}
+
+.ct-detail > h1 {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.ct-img {
+    position: absolute;
+    top: 15em;
+    left: 40%;
+    width: 550px;
+    transform: translateX(-50%);
+}
+
+.cms-txt {
+    font-family: "Titillium Web",sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.cms-txt > span {
+    font-size: 3em;
+    letter-spacing: 50px;
 }

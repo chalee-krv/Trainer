@@ -51,10 +51,15 @@ body {
 
 .hp {
     background-color: #636363;
+    overflow-y: hidden;
 }
 
 .rs {
     background-image: url("../images/bg/result.png");
+}
+
+.ct {
+    min-width: 1366px;
 }
 
 .global-nav {
@@ -391,9 +396,6 @@ body {
 }
 
 .ct-detail {
-    position: absolute;
-    top: 15em;
-    left: 58%;
     font-family: "Titillium Web",sans-serif;
     color: black;
 }
@@ -403,12 +405,18 @@ body {
     font-size: 3em;
 }
 
+.ct > div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    height: 80vh;
+}
+
 .ct-img {
-    position: absolute;
-    top: 15em;
-    left: 40%;
+    padding-right: 50px;
     width: 550px;
-    transform: translateX(-50%);
 }
 
 .cms-txt {

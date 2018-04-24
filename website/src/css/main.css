@@ -432,4 +432,5 @@ body {
 .cms-txt > span {
     font-size: 3em;
     letter-spacing: 50px;
+    white-space: nowrap;
 }

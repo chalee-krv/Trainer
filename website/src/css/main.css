@@ -55,12 +55,14 @@ body {
 }
 
 .rs {
+    min-width: 1560px;
     background-image: url("../images/bg/result.png");
 }
 
 .ct {
     min-width: 1366px;
 }
+
 
 .global-nav {
     position: absolute;
@@ -284,6 +286,7 @@ body {
 .r > div {
     width: 100%;
     background-color: white;
+    min-width: 1150px;
 }
 
 .t {

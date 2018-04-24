@@ -207,3 +207,9 @@
     background-color: #7fb714;
     border-color: #7fb714;
 }
+
+.map-pic {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trainer</title>
+
+    <link rel="import" href="src/import.html">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body class="hp">
+    <nav class="global-nav">
+        <div class="nav">
+            <a href="index.html">
+                <img src="src/images/icon/trainer.png">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="timetable">Timetable</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Language</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <div>
+            <img class="train" src="src/images/Train.png">
+            <p class="txt">
+                <span>Welcome!</span><br>
+                If you don’t want to waste your time to calculate the fare. Let me help you to deal with your problem. Save time. Enjoy your travel more.
+            </p>
+            <div class="panel">
+                <img class="panel-bg" src="src/images/panel/BG.png">
+                <div class="form-group">
+                    <p class="header">LET ME KNOW YOUR WANTS</p>
+
+                    <div class="option-btn">
+                        <button type="button" class="btn dollar">
+                            <img src="src/images/icon/dollar.png">MONEY
+                        </button>
+                        <button type="button" class="btn time">
+                            <img src="src/images/icon/time.png">TIME
+                        </button>
+                    </div>
+
+                    <span class="des-txt">Choose your main plan to find a result of destination that depend on the lowest price or the fastest time.
+                    </span>
+
+                    <div class="form-location">
+                        <label for="from">From</label>
+                        <input type="text" id="from" class="form-control" placeholder="Choose starting point...">
+                        <label for="to">To</label>
+                        <input type="text" id="to" class="form-control" placeholder="Choose destination...">
+                        <button type="button" class="btn cal">Calculate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</body>
+</html>

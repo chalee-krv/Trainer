@@ -1,0 +1,16 @@
+{
+    "name": "trainer",
+    "version": "1.0.0",
+    "description": "Trainer",
+    "main": "index.html",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chalee-krv/Trainer.git"
+    },
+    "author": "Chalee Karavake",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chalee-krv/Trainer/issues"
+    },
+    "homepage": "https://github.com/chalee-krv/Trainer#readme"
+}

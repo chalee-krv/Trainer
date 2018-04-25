@@ -437,3 +437,7 @@ body {
     letter-spacing: 50px;
     white-space: nowrap;
 }
+
+#swap {
+    cursor: pointer;
+}

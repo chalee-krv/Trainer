@@ -1,24 +1,6 @@
-body[page="index"] {
+body {
     background: url("../images/bg/index.svg") no-repeat center fixed, white;
     background-size: cover;
-}
-
-.container-fluid {
-    max-width: 1280px;
-}
-
-.icon-home {
-    height: 60px;
-    filter: opacity(80%);
-}
-
-.icon-home:hover {
-    filter: opacity(100%);
-}
-
-.navbar {
-    font-family: Mitr;
-    font-size: 16px;
 }
 
 .navbar-brand {
@@ -40,6 +22,8 @@ body[page="index"] {
 
 .navbar-nav > li > a {
     line-height: 60px;
+    padding-bottom: 15px;
+    margin-bottom: unset;
 }
 
 .navbar-index .navbar-nav > li > a {
@@ -65,16 +49,6 @@ body[page="index"] {
     font-family: Mitr;
     font-size: 18px;
     color: black;
-}
-
-@media (max-width: 768px) {
-    .welcome {
-        top: unset;
-        text-align: center;
-        margin-left: unset;
-        margin-bottom: 30px;
-        color: white;
-    }
 }
 
 .welcome > span {
@@ -211,4 +185,18 @@ body[page="index"] {
 .btn.cal:active {
     background-color: #6FA814;
     border-color: #649E14;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: #5E5E5E;
+    }
+
+    .welcome {
+        top: unset;
+        text-align: center;
+        margin-left: unset;
+        margin-bottom: 30px;
+        color: white;
+    }
 }

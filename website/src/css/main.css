@@ -37,3 +37,27 @@
     src: url("../fonts/BebasNeue Bold.otf") format('opentype');
     font-weight: bold;
 }
+
+.container-fluid {
+    max-width: 1280px;
+}
+
+.icon-home {
+    height: 60px;
+    filter: opacity(80%);
+}
+
+.icon-home:hover {
+    filter: opacity(100%);
+}
+
+.navbar {
+    font-family: Mitr;
+    font-size: 16px;
+    border-radius: unset !important;
+}
+
+.navbar-nav > li > a {
+    height: 70px;
+    line-height: 60px;
+}

@@ -1,0 +1,12 @@
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    height: 70px !important;
+    padding: 5px 15px !important;
+}

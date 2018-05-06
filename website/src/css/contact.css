@@ -1,0 +1,54 @@
+body {
+    background: url("../images/bg/contact.jpg") left top no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+@media (max-width: 781px) {
+    body {
+        background-size: cover;
+    }
+}
+
+.content {
+    position: relative;
+    width: 50%;
+    min-width: 512px;
+    height: calc(100vh - 72px);
+    float: right;
+    padding: 20px 10px;
+    background-color: white;
+    font-family: Mitr;
+    font-size: 18px;
+}
+
+.header {
+    white-space: nowrap;
+    padding-top: 30px;
+    font-size: 75px;
+}
+
+.des {
+    display: flex;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.separate {
+    width: 400px;
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 30px;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}

@@ -3,6 +3,10 @@ body {
     background-size: cover;
 }
 
+.navbar {
+    margin-bottom: 20px;
+}
+
 .navbar-brand {
     height: unset !important;
     padding-top: 5px !important;

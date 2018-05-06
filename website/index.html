@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trainer</title>
+
+    <link rel="import" href="src/import.html">
+</head>
+<body page="index">
+    <nav class="navbar navbar-index">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="icon-home" src="src/images/icon/trainer.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">MAP</a></li>
+                    <li><a href="#">TIMETABLE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">LANGUAGE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5 col-center">
+                <p class="welcome">
+                    <span>Welcome!</span>
+                    <br> If you don’t want to waste your time to calculate the fare. Let me help you to deal with your problem. Save time. Enjoy your travel more.
+                </p>
+            </div>
+            <div class="col-sm-7 col-center">
+                <div class="panel-station">
+                    <h1 class="header">LET ME KNOW YOUR WANTS</h1>
+
+                    <div class="option-btn">
+                        <button type="button" id="money" class="btn money">
+                            <img src="src/images/icon/dollar.png">MONEY
+                        </button>
+                        <button type="button" id="time" class="btn time">
+                            <img src="src/images/icon/time.png">TIME
+                        </button>
+                    </div>
+
+                    <span class="des-txt">Choose your main plan to find a result of destination that depend on the lowest price or the fastest time.
+                    </span>
+
+                    <div class="form-location">
+                        <label for="from">From</label>
+                        <span class="error-message" hidden>Please provide a valid station</span>
+                        <div class="form-group">
+                            <input type="text" id="from" class="form-control" placeholder="Choose starting point...">
+                            <span class="glyphicon glyphicon-remove form-control-feedback" hidden></span>
+                        </div>
+
+                        <label for="to">To</label>
+                        <span class="error-message" hidden></span>
+                        <div class="form-group">
+                            <input type="text" id="to" class="form-control" placeholder="Choose destination...">
+                            <span class="glyphicon glyphicon-remove form-control-feedback" hidden></span>
+                        </div>
+                        <button type="submit" id="cal" class="btn cal">Calculate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>

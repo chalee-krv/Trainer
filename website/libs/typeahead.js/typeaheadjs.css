@@ -1,0 +1,91 @@
+span.twitter-typeahead .tt-menu {
+    cursor: pointer;
+}
+
+.dropdown-menu, span.twitter-typeahead .tt-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    max-height: 350px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-family: Mitr;
+    font-size: 16px;
+    color: #373A3C;
+    text-align: left;
+    list-style: none;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    overflow: auto;
+}
+
+span.twitter-typeahead .tt-suggestion {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    clear: both;
+    font-weight: 300;
+    line-height: 2;
+    color: #373A3C;
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+}
+
+span.twitter-typeahead .tt-suggestion:focus, .dropdown-item:hover, span.twitter-typeahead .tt-suggestion:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0097cf;
+}
+
+span.twitter-typeahead .active.tt-suggestion, span.twitter-typeahead .tt-suggestion.tt-cursor, span.twitter-typeahead .active.tt-suggestion:focus, span.twitter-typeahead .tt-suggestion.tt-cursor:focus, span.twitter-typeahead .active.tt-suggestion:hover, span.twitter-typeahead .tt-suggestion.tt-cursor:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #0097cf;
+    outline: 0;
+}
+
+span.twitter-typeahead .disabled.tt-suggestion, span.twitter-typeahead .disabled.tt-suggestion:focus, span.twitter-typeahead .disabled.tt-suggestion:hover {
+    color: #818A91;
+}
+
+span.twitter-typeahead .disabled.tt-suggestion:focus, span.twitter-typeahead .disabled.tt-suggestion:hover {
+    text-decoration: none;
+    cursor: not-allowed;
+    background: transparent none;
+    filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)";
+}
+
+span.twitter-typeahead {
+    width: 100%;
+}
+
+.input-group span.twitter-typeahead {
+    display: block !important;
+}
+
+.input-group span.twitter-typeahead .tt-menu {
+    top: 2.375rem !important;
+}
+
+.tt-header {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 5px 20px;
+    border-bottom: 1px solid darkgray;
+}
+
+.tt-empty {
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    color: gray
+}

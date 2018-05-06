@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Transit System Map | Trainer</title>
+    <title>Timetable | Trainer</title>
 
     <link rel="import" href="src/import.html">
-    <link rel="stylesheet" href="src/css/map.css">
+    <link rel="stylesheet" href="src/css/timetable.css">
 </head>
 <body>
     <nav class="navbar navbar-inverse">
@@ -21,8 +21,8 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">MAP</a></li>
-                    <li class="dropdown">
+                    <li><a href="map.html">MAP</a></li>
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown">TIMETABLE</a>
                         <ul class="dropdown-menu">
                             <li><a href="timetable.html?as=bts">BTS</a></li>
@@ -36,8 +36,10 @@
             </div>
         </div>
     </nav>
-    <div id="map" class="map"></div>
+    <div class="table">
+        <img src="src/images/timetable/bts.jpg">
+    </div>
 
-    <script src="src/js/map.js"></script>
+    <script src="src/js/timetable.js"></script>
 </body>
 </html>

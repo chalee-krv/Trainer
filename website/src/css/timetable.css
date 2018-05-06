@@ -1,0 +1,10 @@
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.table > img {
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+}

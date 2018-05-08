@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Timetable | Trainer</title>
+    <title>Trainer</title>
 
     <link rel="import" href="src/import.html">
-    <link rel="stylesheet" href="src/css/timetable.css">
+    <!--<link rel="stylesheet" href="src/css/">-->
 </head>
 <body>
     <nav class="navbar navbar-inverse">
@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="map.html">MAP</a></li>
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown">TIMETABLE</a>
                         <ul class="dropdown-menu">
                             <li><a href="timetable.html?as=bts">BTS</a></li>
@@ -31,15 +31,20 @@
                         </ul>
                     </li>
                     <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="lang.html">LANGUAGE</a></li>
+                    <li class="active"><a href="#">LANGUAGE</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="table">
-        <img src="src/images/timetable/bts.jpg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="coming-soon">
+                    <span>COMING SOON</span>
+                    Available in Thai.
+                </p>
+            </div>
+        </div>
     </div>
-
-    <script src="src/js/timetable.js"></script>
 </body>
 </html>

@@ -52,6 +52,12 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "Titillium Web";
+    src: url("../fonts/TitilliumWeb-Regular.ttf") format('truetype');
+    font-weight: normal;
+}
+
 .container-fluid {
     max-width: 1280px;
 }
@@ -88,4 +94,38 @@
 
 .dropdown-menu > li > a {
     line-height: 2 !important;
+}
+
+.coming-soon {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: calc(100vh - 90px);
+    text-align: center;
+    font-family: Mitr;
+    font-size: 27px;
+    overflow: hidden;
+}
+
+.coming-soon > span {
+    font-family: "Titillium Web";
+    font-size: 94.5px;
+    font-weight: bold;
+    letter-spacing: 54px;
+    white-space: nowrap;
+    margin-right: -54px;
+    margin-bottom: unset !important;
+}
+
+@media (max-width: 1350px) {
+    .coming-soon {
+        font-size: 2vw;
+    }
+
+    .coming-soon > span {
+        font-size: 7vw;
+        letter-spacing: 4vw;
+        margin-right: -4vw;
+
+    }
 }

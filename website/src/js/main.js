@@ -1,3 +1,10 @@
+$(function () {
+    $('#nav').load('src/navbar.html', function () {
+        $(`#tab-${location.pathname.match(/[^\/]+(?=.html?)/)[0]}`).addClass('active');
+        $(`#tab-${getReqParam('as')}`).addClass('active');
+    });
+});
+
 function getReqParam(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');

@@ -3,15 +3,7 @@
         {
             "name_TH": "หมอชิต",
             "name_EN": "Mo Chit",
-            "abbr": "N8",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:15",
-                "toMoChit": null
-            },
+            "abbr": "n8",
             "tokens": [
                 "หมอชิต",
                 "Mo",
@@ -21,15 +13,7 @@
         {
             "name_TH": "สะพานควาย",
             "name_EN": "Saphan Khwai",
-            "abbr": "N7",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:16",
-                "toMoChit": "05:55"
-            },
+            "abbr": "n7",
             "tokens": [
                 "สะพานควาย",
                 "Saphan",
@@ -39,15 +23,7 @@
         {
             "name_TH": "อารีย์",
             "name_EN": "Ari",
-            "abbr": "N5",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:19",
-                "toMoChit": "05:53"
-            },
+            "abbr": "n5",
             "tokens": [
                 "อารีย์",
                 "Ari"
@@ -56,15 +32,7 @@
         {
             "name_TH": "สนามเป้า",
             "name_EN": "Sanam Pao",
-            "abbr": "N4",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:20",
-                "toMoChit": "05:51"
-            },
+            "abbr": "n4",
             "tokens": [
                 "สนามเป้า",
                 "Sanam",
@@ -73,35 +41,19 @@
         },
         {
             "name_TH": "อนุสาวรีย์ชัยสมรภูมิ",
-            "name_EN": "Viotory Monument",
-            "abbr": "N3",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:23",
-                "toMoChit": "05:48"
-            },
+            "name_EN": "Victory Monument",
+            "abbr": "n3",
             "tokens": [
                 "อนุ",
                 "สาวรีย์",
-                "Viotory",
+                "Victory",
                 "Monument"
             ]
         },
         {
             "name_TH": "พญาไท",
             "name_EN": "Phaya Thai",
-            "abbr": "N2",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:25",
-                "toMoChit": "05:47"
-            },
+            "abbr": "n2",
             "tokens": [
                 "พญาไท",
                 "Phaya",
@@ -110,33 +62,17 @@
         },
         {
             "name_TH": "ราชเทวี",
-            "name_EN": "Ratohathewi",
-            "abbr": "N1",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:26",
-                "toMoChit": "05:45"
-            },
+            "name_EN": "Ratchathewi",
+            "abbr": "n1",
             "tokens": [
                 "ราชเทวี",
-                "Ratohathewi"
+                "Ratchathewi"
             ]
         },
         {
             "name_TH": "สยาม",
             "name_EN": "Siam",
-            "abbr": "CEN",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:29",
-                "toMoChit": "05:43"
-            },
+            "abbr": "cen",
             "tokens": [
                 "สยาม",
                 "Siam"
@@ -145,15 +81,7 @@
         {
             "name_TH": "ชิดลม",
             "name_EN": "Chit Lom",
-            "abbr": "E1",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:31",
-                "toMoChit": "05:40"
-            },
+            "abbr": "e1",
             "tokens": [
                 "ชิดลม",
                 "Chit",
@@ -163,15 +91,7 @@
         {
             "name_TH": "เพลินจิต",
             "name_EN": "Phloen Chit",
-            "abbr": "E2",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:32",
-                "toMoChit": "05:39"
-            },
+            "abbr": "e2",
             "tokens": [
                 "เพลินจิต",
                 "Phloen",
@@ -181,15 +101,7 @@
         {
             "name_TH": "นานา",
             "name_EN": "Nana",
-            "abbr": "E3",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:34",
-                "toMoChit": "05:37"
-            },
+            "abbr": "e3",
             "tokens": [
                 "นานา",
                 "Nana"
@@ -198,15 +110,7 @@
         {
             "name_TH": "อโศก",
             "name_EN": "Asok",
-            "abbr": "E4",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:36",
-                "toMoChit": "05:36"
-            },
+            "abbr": "e4",
             "tokens": [
                 "อโศก",
                 "Asok"
@@ -215,15 +119,7 @@
         {
             "name_TH": "พร้อมพงษ์",
             "name_EN": "Phrom Phong",
-            "abbr": "E5",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05.38",
-                "toMoChit": "05:34"
-            },
+            "abbr": "e5",
             "tokens": [
                 "พร้อมพงษ์",
                 "Phrom",
@@ -233,15 +129,7 @@
         {
             "name_TH": "ทองหล่อ",
             "name_EN": "Thong Lo",
-            "abbr": "E6",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:40",
-                "toMoChit": "05:32"
-            },
+            "abbr": "e6",
             "tokens": [
                 "ทองหล่อ",
                 "Thong",
@@ -251,15 +139,7 @@
         {
             "name_TH": "เอกมัย",
             "name_EN": "Ekkamai",
-            "abbr": "E7",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:41",
-                "toMoChit": "05:30"
-            },
+            "abbr": "e7",
             "tokens": [
                 "เอกมัย",
                 "Ekkamai"
@@ -268,15 +148,7 @@
         {
             "name_TH": "พระโขนง",
             "name_EN": "Phra Khanong",
-            "abbr": "E8",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:43",
-                "toMoChit": "05:28"
-            },
+            "abbr": "e8",
             "tokens": [
                 "พระโขนง",
                 "Phra",
@@ -286,15 +158,7 @@
         {
             "name_TH": "อ่อนนุช",
             "name_EN": "On Nut",
-            "abbr": "E9",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:45",
-                "toMoChit": "05:26"
-            },
+            "abbr": "e9",
             "tokens": [
                 "อ่อนนุช",
                 "On",
@@ -304,15 +168,7 @@
         {
             "name_TH": "บางจาก",
             "name_EN": "Bang Chak",
-            "abbr": "E10",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:47",
-                "toMoChit": "05:24"
-            },
+            "abbr": "e10",
             "tokens": [
                 "บางจาก",
                 "Bang",
@@ -322,15 +178,7 @@
         {
             "name_TH": "ปุณณวิถี",
             "name_EN": "Punnawithi",
-            "abbr": "E11",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:49",
-                "toMoChit": "05:23"
-            },
+            "abbr": "e11",
             "tokens": [
                 "ปุณณวิถี",
                 "Punnawithi"
@@ -339,15 +187,7 @@
         {
             "name_TH": "อุดมสุข",
             "name_EN": "Udom Suk",
-            "abbr": "E12",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:50",
-                "toMoChit": "05:21"
-            },
+            "abbr": "e12",
             "tokens": [
                 "อุดมสุข",
                 "Udom",
@@ -357,15 +197,7 @@
         {
             "name_TH": "บางนา",
             "name_EN": "Bang Na",
-            "abbr": "E13",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:53",
-                "toMoChit": "05:18"
-            },
+            "abbr": "e13",
             "tokens": [
                 "บางนา",
                 "Bang",
@@ -375,15 +207,7 @@
         {
             "name_TH": "แบริ่ง",
             "name_EN": "Bearing",
-            "abbr": "E14",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "05:55",
-                "toMoChit": "05:17"
-            },
+            "abbr": "e14",
             "tokens": [
                 "แบริ่ง",
                 "Bearing"
@@ -392,15 +216,7 @@
         {
             "name_TH": "สำโรง",
             "name_EN": "Samrong",
-            "abbr": "E15",
-            "line": {
-                "TH": "สายสุขุมวิท",
-                "EN": "Sukhumvit Line"
-            },
-            "firstTrain": {
-                "toSamrong": "null",
-                "toMoChit": "05:15"
-            },
+            "abbr": "e15",
             "tokens": [
                 "สำโรง",
                 "Samrong"
@@ -409,15 +225,7 @@
         {
             "name_TH": "สนามกีฬาแห่งชาติ",
             "name_EN": "National Stadium",
-            "abbr": "W1",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:30",
-                "toNationalStadium": "null"
-            },
+            "abbr": "w1",
             "tokens": [
                 "สนามกีฬา",
                 "สนามศุภฯ",
@@ -426,51 +234,18 @@
             ]
         },
         {
-            "name_TH": "สยาม",
-            "name_EN": "Siam",
-            "abbr": "CEN",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:31",
-                "toNationalStadium": "05:53"
-            },
-            "tokens": [
-                "สยาม",
-                "Siam"
-            ]
-        },
-        {
             "name_TH": "ราชดำริ",
-            "name_EN": "Ratohadamri",
-            "abbr": "S1",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:34",
-                "toNationalStadium": "05:50"
-            },
+            "name_EN": "Ratchadamri",
+            "abbr": "s1",
             "tokens": [
                 "ราชดำริ",
-                "Ratohadamri"
+                "Ratchadamri"
             ]
         },
         {
             "name_TH": "ศาลาแดง",
             "name_EN": "Sala Daeng",
-            "abbr": "S2",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:36",
-                "toNationalStadium": "05:47"
-            },
+            "abbr": "s2",
             "tokens": [
                 "ศาลาแดง",
                 "Sala",
@@ -479,35 +254,19 @@
         },
         {
             "name_TH": "ช่องนนทรี",
-            "name_EN": "Chong Nonai",
-            "abbr": "S3",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:38",
-                "toNationalStadium": "05:45"
-            },
+            "name_EN": "Chong Nonsi",
+            "abbr": "s3",
             "tokens": [
                 "ช่อง",
                 "นนทรี",
                 "Chong",
-                "Nonai"
+                "Nonsi"
             ]
         },
         {
             "name_TH": "สุรศักดิ์",
             "name_EN": "Surasak",
-            "abbr": "S5",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:41",
-                "toNationalStadium": "05:43"
-            },
+            "abbr": "s5",
             "tokens": [
                 "สุรศักดิ์",
                 "Surasak"
@@ -516,15 +275,7 @@
         {
             "name_TH": "สะพานตากสิน",
             "name_EN": "Saphan Taksin",
-            "abbr": "S6",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:43",
-                "toNationalStadium": "05:41"
-            },
+            "abbr": "s6",
             "tokens": [
                 "สะพาน",
                 "ตากสิน",
@@ -535,15 +286,7 @@
         {
             "name_TH": "กรุงธนบุรี",
             "name_EN": "Krung Thon Buri",
-            "abbr": "S7",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:45",
-                "toNationalStadium": "05:39"
-            },
+            "abbr": "s7",
             "tokens": [
                 "กรุงธนบุรี",
                 "Krung",
@@ -553,15 +296,7 @@
         {
             "name_TH": "วงเวียนใหญ่",
             "name_EN": "Wongwian Yai",
-            "abbr": "S8",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:47",
-                "toNationalStadium": "05:37"
-            },
+            "abbr": "s8",
             "tokens": [
                 "วงเวียนใหญ่",
                 "Wongwian Yai"
@@ -570,15 +305,7 @@
         {
             "name_TH": "โพธิ์นิมิตร",
             "name_EN": "Pho Nimit",
-            "abbr": "S9",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:48",
-                "toNationalStadium": "05:35"
-            },
+            "abbr": "s9",
             "tokens": [
                 "โพธิ์นิมิตร",
                 "Pho",
@@ -588,15 +315,7 @@
         {
             "name_TH": "ตลาดพลู",
             "name_EN": "Talat Phlu",
-            "abbr": "S10",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:50",
-                "toNationalStadium": "05:34"
-            },
+            "abbr": "s10",
             "tokens": [
                 "ตลาดพูล",
                 "Talat",
@@ -606,15 +325,7 @@
         {
             "name_TH": "วุฒากาศ",
             "name_EN": "Wutthakat",
-            "abbr": "S11",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": "05:52",
-                "toNationalStadium": "05:32"
-            },
+            "abbr": "s11",
             "tokens": [
                 "วุฒากาศ",
                 "Wutthakat"
@@ -623,22 +334,431 @@
         {
             "name_TH": "บางหว้า",
             "name_EN": "Bang wa",
-            "abbr": "S12",
-            "line": {
-                "TH": "สายสีลม",
-                "EN": "Silom Line"
-            },
-            "firstTrain": {
-                "toBangWa": null,
-                "toNationalStadium": "05:30"
-            },
+            "abbr": "s12",
             "tokens": [
-                "บางว้า",
+                "บางหว้า",
                 "Bang",
                 "Wa"
             ]
         }
     ],
-    "mrt": [],
-    "arl": []
+    "mrt": [
+        {
+            "name_TH": "หัวลำโพง",
+            "name_EN": "Hua Lamphong",
+            "abbr": "b18",
+            "tokens": [
+                "หัวลำโพง",
+                "Hua",
+                "Lamphong"
+            ]
+        },
+        {
+            "name_TH": "สามย่าน",
+            "name_EN": "Sam Yan",
+            "abbr": "b17",
+            "tokens": [
+                "สามย่าน",
+                "Sam",
+                "Yan"
+            ]
+        },
+        {
+            "name_TH": "สีลม",
+            "name_EN": "Si Lom",
+            "abbr": "b16",
+            "tokens": [
+                "สีลม",
+                "Si",
+                "Lom"
+            ]
+        },
+        {
+            "name_TH": "ลุมพินี",
+            "name_EN": "Lumphini",
+            "abbr": "b15",
+            "tokens": [
+                "ลุมพินี",
+                "Lumphini"
+            ]
+        },
+        {
+            "name_TH": "คลองเตย",
+            "name_EN": "Khlong Toei",
+            "abbr": "b14",
+            "tokens": [
+                "คลองเตย",
+                "Khlong",
+                "Toei"
+            ]
+        },
+        {
+            "name_TH": "ศูนย์การประชุมแห่งชาติสิริกิติ์ ",
+            "name_EN": "Queen Sirikit National Convention Centre",
+            "abbr": "b13",
+            "tokens": [
+                "ศูนย์การประชุมแห่งชาติสิริกิติ์ ",
+                "Queen",
+                "Sirikit",
+                "National",
+                "Convention",
+                "Centre"
+            ]
+        },
+        {
+            "name_TH": "สุขุมวิท",
+            "name_EN": "Sukhumvit",
+            "abbr": "b12",
+            "tokens": [
+                "สุขุมวิท",
+                "Sukhumvit"
+            ]
+        },
+        {
+            "name_TH": "เพชรบุรี",
+            "name_EN": "Phetchaburi",
+            "abbr": "b11",
+            "tokens": [
+                "เพชรบุรี",
+                "Phetchaburi"
+            ]
+        },
+        {
+            "name_TH": "พระราม 9",
+            "name_EN": "Phra Ram 9",
+            "abbr": "b10",
+            "tokens": [
+                "พระราม 9",
+                "Phra",
+                "Ram 9"
+            ]
+        },
+        {
+            "name_TH": "ศูนย์วัฒนธรรมแห่งประเทศไทย",
+            "name_EN": "Thailand Cultural Centre ",
+            "abbr": "b9",
+            "tokens": [
+                "ศูนย์วัฒนธรรมแห่งประเทศไทย ",
+                "Thailand",
+                "Cultural",
+                "Centre"
+            ]
+        },
+        {
+            "name_TH": "ห้วยขวาง",
+            "name_EN": "Huai Khwang ",
+            "abbr": "b8",
+            "tokens": [
+                "ห้วยขวาง",
+                "Huai",
+                "Khwang"
+            ]
+        },
+        {
+            "name_TH": "สุทธิสาร",
+            "name_EN": "Sutthisan",
+            "abbr": "b7",
+            "tokens": [
+                "สุทธิสาร",
+                "Sutthisan"
+            ]
+        },
+        {
+            "name_TH": "รัชดาภิเษก",
+            "name_EN": "Ratchadaphisek",
+            "abbr": "b6",
+            "tokens": [
+                "รัชดาภิเษก",
+                "Ratchadaphisek"
+            ]
+        },
+        {
+            "name_TH": "ลาดพร้าว",
+            "name_EN": "Lat Phrao",
+            "abbr": "b5",
+            "tokens": [
+                "ลาดพร้าว",
+                "Lat",
+                "Phrao"
+            ]
+        },
+        {
+            "name_TH": "พหลโยธิน",
+            "name_EN": "Phahon Yothin",
+            "abbr": "b4",
+            "tokens": [
+                "พหลโยธิน",
+                "Phahon",
+                "Yothin"
+            ]
+        },
+        {
+            "name_TH": "สวนจตุจักร",
+            "name_EN": "Chatuchak Park",
+            "abbr": "b3",
+            "tokens": [
+                "สวนจตุจักร",
+                "Chatuchak",
+                "Park"
+            ]
+        },
+        {
+            "name_TH": "กำแพงเพชร ",
+            "name_EN": "Kamphaeng Phet",
+            "abbr": "b2",
+            "tokens": [
+                "กำแพงเพชร ",
+                "Kamphaeng",
+                "Phet"
+            ]
+        },
+        {
+            "name_TH": "บางซื่อ",
+            "name_EN": "Bang Sue",
+            "abbr": "b1",
+            "tokens": [
+                "บางซื่อ",
+                "Bang",
+                "Sue"
+            ]
+        },
+        {
+            "name_TH": "เตาปูน",
+            "name_EN": "Tao Poon",
+            "abbr": "bp",
+            "tokens": [
+                "เตาปูน",
+                "Tao",
+                "Poon"
+            ]
+        },
+        {
+            "name_TH": "บางซ่อน",
+            "name_EN": "Bang Son",
+            "abbr": "p1",
+            "tokens": [
+                "บางซ่อน",
+                "Bang",
+                "Son"
+            ]
+        },
+        {
+            "name_TH": "วงศ์สว่าง",
+            "name_EN": "Wong Sawang",
+            "abbr": "p2",
+            "tokens": [
+                "วงศ์สว่าง",
+                "Wong",
+                "Sawang"
+            ]
+        },
+        {
+            "name_TH": "แยกติวานนท์",
+            "name_EN": "Yaek Tiwanon",
+            "abbr": "p3",
+            "tokens": [
+                "แยกติวานนท์",
+                "Yaek",
+                "Tiwanon"
+            ]
+        },
+        {
+            "name_TH": "กระทรวงสาธารณสุข",
+            "name_EN": "Ministry of Public Health ",
+            "abbr": "p4",
+            "tokens": [
+                "กระทรวง",
+                "สาธารณสุข",
+                "Ministry",
+                "Public",
+                "Health"
+            ]
+        },
+        {
+            "name_TH": "ศูนย์ราชการนนทบุรี",
+            "name_EN": "Nonthaburi Civic Center ",
+            "abbr": "p5",
+            "tokens": [
+                "ศูนย์ราชการนนทบุรี",
+                "Nonthaburi",
+                "Civic",
+                "Center"
+            ]
+        },
+        {
+            "name_TH": "บางกระสอ",
+            "name_EN": "Bang Kraso",
+            "abbr": "p6",
+            "tokens": [
+                "บางกระสอ",
+                "Bang",
+                "Kraso"
+            ]
+        },
+        {
+            "name_TH": "แยกนนทบุรี 1",
+            "name_EN": "Yaek Nonthaburi 1",
+            "abbr": "p7",
+            "tokens": [
+                "แยกนนทบุรี",
+                "Nonthaburi 1"
+            ]
+        },
+        {
+            "name_TH": "สะพานพระนั่งเกล้า",
+            "name_EN": "Phra Nang klao Bridge ",
+            "abbr": "p8",
+            "tokens": [
+                "สะพานพระนั่งเกล้า",
+                "Phra Nang klao"
+            ]
+        },
+        {
+            "name_TH": "ไทรม้า",
+            "name_EN": "Sai Ma",
+            "abbr": "p9",
+            "tokens": [
+                "ไทรม้า",
+                "Sai Ma"
+            ]
+        },
+        {
+            "name_TH": "บางรักน้อยท่าอิฐ",
+            "name_EN": "Bang Rak Noi Tha It ",
+            "abbr": "p10",
+            "tokens": [
+                "บางรักน้อย",
+                "ท่าอิฐ",
+                "Bang Rak Noi",
+                "Tha It"
+            ]
+        },
+        {
+            "name_TH": "บางรักใหญ่",
+            "name_EN": "Bang Rak Yai",
+            "abbr": "p11",
+            "tokens": [
+                "บางรักใหญ่",
+                "Bang Rak Yai"
+            ]
+        },
+        {
+            "name_TH": "บางพลู",
+            "name_EN": "Bang Phlu",
+            "abbr": "p12",
+            "tokens": [
+                "บางพลู",
+                "Bang Phlu"
+            ]
+        },
+        {
+            "name_TH": "สามแยกบางใหญ่",
+            "name_EN": "Sam Yaek Bang Yai",
+            "abbr": "p13",
+            "tokens": [
+                "สามแยกบางใหญ่",
+                "Sam Yaek",
+                "Bang Yai"
+            ]
+        },
+        {
+            "name_TH": "ตลาดบางใหญ่",
+            "name_EN": "Talad Bang Yai",
+            "abbr": "p14",
+            "tokens": [
+                "ตลาดบางใหญ่",
+                "Talad",
+                "Bang Yai"
+            ]
+        },
+        {
+            "name_TH": "คลองบางไผ่",
+            "name_EN": "Khlong Bang Phai",
+            "abbr": "p15",
+            "tokens": [
+                "คลองบางไผ่",
+                "Khlong",
+                "Bang Phai"
+            ]
+        }
+    ],
+    "arl": [
+        {
+            "name_TH": "สุวรรณภูมิ",
+            "name_EN": "Suvarnabhumi",
+            "abbr": "a1",
+            "tokens": [
+                "สุวรรณภูมิ",
+                "Suvarnabhumi"
+            ]
+        },
+        {
+            "name_TH": "ลาดกระบัง",
+            "name_EN": "Lat Krabang",
+            "abbr": "a2",
+            "tokens": [
+                "ลาดกระบัง",
+                "Lat",
+                "Krabang"
+            ]
+        },
+        {
+            "name_TH": "บ้านทับช้าง",
+            "name_EN": "Ban Thap Chang",
+            "abbr": "a3",
+            "tokens": [
+                "บ้านทับช้าง",
+                "Ban",
+                "Thap",
+                "Chang"
+            ]
+        },
+        {
+            "name_TH": "หัวหมาก",
+            "name_EN": "Hua Mak",
+            "abbr": "a4",
+            "tokens": [
+                "หัวหมาก",
+                "Hua",
+                "Mak"
+            ]
+        },
+        {
+            "name_TH": "รามคำแหง",
+            "name_EN": "Ramkhamhaeng",
+            "abbr": "a5",
+            "tokens": [
+                "รามคำแหง",
+                "Ramkhamhaeng"
+            ]
+        },
+        {
+            "name_TH": "มักกะสัน",
+            "name_EN": "Makkasan",
+            "abbr": "a6",
+            "tokens": [
+                "มักกะสัน",
+                "Makkasan"
+            ]
+        },
+        {
+            "name_TH": "ราชปรารภ",
+            "name_EN": "Ratchaprarop",
+            "abbr": "a7",
+            "tokens": [
+                "ราชปรารภ",
+                "Ratchaprarop"
+            ]
+        },
+        {
+            "name_TH": "พญาไท",
+            "name_EN": "Phaya Thai",
+            "abbr": "a8",
+            "tokens": [
+                "พญาไท",
+                "Phaya",
+                "Thai"
+            ]
+        }
+    ]
 }

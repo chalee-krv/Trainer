@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trainer</title>
+
+    <link rel="import" href="src/import.html">
+    <link rel="stylesheet" href="src/css/result.css">
+    <script src="libs/panzoom/panzoom.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="icon-home" src="src/images/icon/trainer.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="map.html">MAP</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">TIMETABLE</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="timetable.html?as=bts">BTS</a></li>
+                            <li><a href="timetable.html?as=mrt">MRT</a></li>
+                            <li><a href="timetable.html?as=arl">ARL</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="lang.html">LANGUAGE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="result-l"></div>
+        <div class="result-r">
+            <div class="time-container"></div>
+            <div class="map-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
+                    <g id="map" active>
+                        <g id="mrt">
+                            <line id="b17-b18" class="path blue-line" x1="1070.26" y1="813.97" x2="1002.85" y2="813.97"/>
+                            <line id="b16-b17" class="path blue-line" x1="1143.22" y1="813.97" x2="1070.26" y2="813.97"/>
+                            <line id="b15-b16" class="path blue-line" x1="1210.22" y1="813.97" x2="1143.22" y2="813.97"/>
+                            <path id="b14-b15" class="path blue-line" d="M1315.12,860.4a33.83,33.83,0,0,1-4.75.33H1245.3"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="b13-b14" class="path blue-line" d="M1344.12,798.39V827a33.76,33.76,0,0,1-29,33.41"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="b12-b13" class="path blue-line" x1="1309.04" y1="666.54" x2="1309.04" y2="751.62"/>
+                            <line id="b11-b12" class="path blue-line" x1="1309.04" y1="583.04" x2="1309.04" y2="666.54"/>
+                            <line id="b10-b11" class="path blue-line" x1="1309.04" y1="514.87" x2="1309.04" y2="583.04"/>
+                            <line id="b10-b9" class="path blue-line" x1="1309.04" y1="453.37" x2="1309.04" y2="514.87"/>
+                            <line id="b8-b9" class="path blue-line" x1="1309.04" y1="390.25" x2="1309.04" y2="453.37"/>
+                            <line id="b7-b8" class="path blue-line" x1="1309.04" y1="330" x2="1309.04" y2="390.25"/>
+                            <line id="b6-b7" class="path blue-line" x1="1309.04" y1="266.62" x2="1309.04" y2="330"/>
+                            <path id="b5-b6" class="path blue-line" d="M1283.55,268.49h26.92a33.66,33.66,0,0,1,33.65,33.65v11.25"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="b4-b5" class="path blue-line" x1="1151.6" y1="221.73" x2="1248.47" y2="221.73"/>
+                            <path id="b3-b4" class="path blue-line"
+                                  d="M1120.3,316.19V305.28a9.3,9.3,0,0,1,2.78-6.63l25.55-25.18a17.29,17.29,0,0,1,12.14-5h25.91"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="b2-b3" class="path blue-line" d="M1003,337.47h105.54a11.75,11.75,0,0,0,11.75-11.75v-9.53"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="b1-b2" class="path blue-line" x1="884.37" y1="290.71" x2="967.93" y2="290.71"/>
+                            <path id="b1-bp" class="path blue-line" d="M845.55,363.89l5-6.92a46.87,46.87,0,0,1,38-19.5h30.88"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="bp-p1" class="path purple-line" d="M816.65,301a57.11,57.11,0,0,1,17.14,40.79v35.84"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="p1-p2" class="path purple-line" x1="743.7" y1="217.14" x2="781.57" y2="254.25"/>
+                            <line id="p2-p3" class="path purple-line" x1="706.72" y1="180.9" x2="743.7" y2="217.14"/>
+                            <path id="p3-p4" class="path purple-line"
+                                  d="M738.05,177.61l-14.72,15.85a11.84,11.84,0,0,0,.39,16.49l18.08,17.72"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="p4-p5" class="path purple-line" d="M722.24,145.21h41.87a1.76,1.76,0,0,1,1.29,3l-27.35,29.44"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="p5-p6" class="path purple-line" x1="629.85" y1="98.44" x2="687.16" y2="98.44"/>
+                            <line id="p6-p7" class="path purple-line" x1="570.54" y1="98.44" x2="629.85" y2="98.44"/>
+                            <line id="p7-p8" class="path purple-line" x1="510.22" y1="98.44" x2="570.54" y2="98.44"/>
+                            <line id="p8-p9" class="path purple-line" x1="449.47" y1="98.44" x2="510.22" y2="98.44"/>
+                            <line id="p10-p9" class="path purple-line" x1="387.31" y1="98.44" x2="449.47" y2="98.44"/>
+                            <line id="p10-p11" class="path purple-line" x1="326.64" y1="98.44" x2="387.31" y2="98.44"/>
+                            <line id="p11-p12" class="path purple-line" x1="264.31" y1="98.44" x2="326.64" y2="98.44"/>
+                            <line id="p12-p13" class="path purple-line" x1="202.72" y1="98.44" x2="264.31" y2="98.44"/>
+                            <path id="p13-p14" class="path purple-line" d="M204.3,108.64v27.9a8.68,8.68,0,0,0,8.68,8.67H237.8"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="p14-p15" class="path purple-line" x1="169.22" y1="14.54" x2="169.22" y2="61.87"/>
+                            <text class="b18 label-en blue-line" transform="translate(911.85 791.89)">H
+                                <tspan x="9.02" y="0">u</tspan>
+                                <tspan x="16.42" y="0">a</tspan>
+                                <tspan x="29.86" y="0">L</tspan>
+                                <tspan x="36.36" y="0">amp</tspan>
+                                <tspan x="62.82" y="0">h</tspan>
+                                <tspan x="70.32" y="0">ong</tspan>
+                            </text>
+                            <text class="b18 label-th blue-line" transform="translate(929.34 777.53)">หัวลำโพง</text>
+                            <circle id="b18" class="station" cx="1002.72" cy="813.97" r="10"/>
+                            <text class="b17 label-en blue-line" transform="translate(1043.2 791.89)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">am</tspan>
+                                <tspan x="31.28" y="0">Y</tspan>
+                                <tspan x="38.28" y="0">an</tspan>
+                            </text>
+                            <text class="b17 label-th blue-line" transform="translate(1036.96 777.53)">สามย่าน</text>
+                            <circle id="b17" class="station" cx="1070.26" cy="813.97" r="10"/>
+                            <text class="b15 label-en blue-line" transform="translate(1227.69 895.12) rotate(-90)">Lumphini</text>
+                            <text class="b15 label-th blue-line" transform="translate(1209.49 891.06) rotate(-90)">ลุมพินี</text>
+                            <circle id="b15" class="station" cx="1210.22" cy="813.97" r="10"/>
+                            <text class="b14 label-en blue-line" transform="translate(1303 912.83) rotate(-90)">
+                                <tspan>K</tspan>
+                                <tspan x="7.76" y="0">hlong</tspan>
+                                <tspan x="47.59" y="0">T</tspan>
+                                <tspan x="53.56" y="0">oei</tspan>
+                            </text>
+                            <text class="b14 label-th blue-line" transform="translate(1286.31 919.83) rotate(-90)">คลองเตย</text>
+                            <circle id="b14" class="station" cx="1281.1" cy="813.97" r="10"/>
+                            <text class="b13 label-en blue-line" transform="translate(1334.49 805.04)">Queen Sirikit
+                                <tspan x="0" y="15.6">N</tspan>
+                                <tspan x="9.06" y="15.6">a</tspan>
+                                <tspan x="16.72" y="15.6">tio</tspan>
+                                <tspan x="33.73" y="15.6">n</tspan>
+                                <tspan x="41.24" y="15.6">al</tspan>
+                                <tspan x="0" y="31.2">C</tspan>
+                                <tspan x="8.2" y="31.2">o</tspan>
+                                <tspan x="16.26" y="31.2">n</tspan>
+                                <tspan x="23.63" y="31.2">v</tspan>
+                                <tspan x="30.45" y="31.2">ention</tspan>
+                                <tspan x="0" y="46.8">C</tspan>
+                                <tspan x="8.2" y="46.8">entre</tspan>
+                            </text>
+                            <text class="b13 label-th blue-line" transform="translate(1334.49 733.58)">ศูนย์การ
+                                <tspan x="0" y="24">ประชุมแห่ง</tspan>
+                                <tspan x="0" y="48">ชาติสิริกิติ์</tspan>
+                            </text>
+                            <circle id="b13" class="station" cx="1309.04" cy="751.62" r="10"/>
+                            <text class="b10 label-en blue-line" transform="translate(1334.49 538.86)">Phra
+                                <tspan x="34.23" y="0">R</tspan>
+                                <tspan x="41.87" y="0">am 9</tspan>
+                            </text>
+                            <text class="b10 label-th blue-line" transform="translate(1334.49 521.16)">พระราม
+                                <tspan class="txt-9" x="70.68" y="0">9</tspan>
+                            </text>
+                            <circle id="b10" class="station" cx="1309.04" cy="514.87" r="10"/>
+                            <text class="b9 label-en blue-line" transform="translate(1334.49 477.34)">T
+                                <tspan x="7.46" y="0">h</tspan>
+                                <tspan x="14.96" y="0">ailand</tspan>
+                                <tspan x="58.17" y="0">C</tspan>
+                                <tspan x="66.64" y="0">ul</tspan>
+                                <tspan x="77.15" y="0">t</tspan>
+                                <tspan x="82.61" y="0">ural</tspan>
+                                <tspan x="111.69" y="0">C</tspan>
+                                <tspan x="119.9" y="0">entre</tspan>
+                            </text>
+                            <text class="b9 label-th blue-line" transform="translate(1334.49 459.64)">ศูนย์วัฒนธรรมแห่งประเทศไทย</text>
+                            <circle id="b9" class="station" cx="1309.04" cy="453.37" r="10"/>
+                            <text class="b8 label-en blue-line" transform="translate(1334.49 414.21)">Hul
+                                <tspan x="25" y="0">Kh</tspan>
+                                <tspan x="40.13" y="0">w</tspan>
+                                <tspan x="49.45" y="0">ang</tspan>
+                            </text>
+                            <text class="b8 label-th blue-line" transform="translate(1334.49 396.35)">ห้วยขวาง</text>
+                            <circle id="b8" class="station" cx="1309.04" cy="390.25" r="10"/>
+                            <text class="b7 label-en blue-line" transform="translate(1334.49 354.16)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">u</tspan>
+                                <tspan x="14.95" y="0">t</tspan>
+                                <tspan x="20.15" y="0">thi</tspan>
+                                <tspan x="36.8" y="0">s</tspan>
+                                <tspan x="43.05" y="0">an</tspan>
+                            </text>
+                            <text class="b7 label-th blue-line" transform="translate(1334.49 335.72)">สุทธิสาร</text>
+                            <circle id="b7" class="station" cx="1309.04" cy="330" r="10"/>
+                            <text class="b6 label-en blue-line" transform="translate(1334.49 290.59)">
+                                <tspan>R</tspan>
+                                <tspan x="7.64" y="0">a</tspan>
+                                <tspan x="15.3" y="0">t</tspan>
+                                <tspan x="20.63" y="0">c</tspan>
+                                <tspan x="28" y="0">h</tspan>
+                                <tspan x="35.5" y="0">a</tspan>
+                                <tspan x="43.48" y="0">d</tspan>
+                                <tspan x="51.28" y="0">aphisek</tspan>
+                            </text>
+                            <text class="b6 label-th blue-line" transform="translate(1334.49 272.35)">รัชดาภิเษก</text>
+                            <circle id="b6" class="station" cx="1309.04" cy="266.62" r="10"/>
+                            <text class="b5 label-en blue-line" transform="translate(1238.47 199.31)">
+                                <tspan>L</tspan>
+                                <tspan x="6.5" y="0">a</tspan>
+                                <tspan x="14.16" y="0">t Phr</tspan>
+                                <tspan x="46.19" y="0">a</tspan>
+                                <tspan x="53.85" y="0">o</tspan>
+                            </text>
+                            <text class="b5 label-th blue-line" transform="translate(1238.47 180.39)">ลาดพร้าว</text>
+                            <circle id="b5" class="station" cx="1248.47" cy="221.73" r="10"/>
+                            <text class="b4 label-en blue-line" transform="translate(1106.04 199.31)">P
+                                <tspan x="7.97" y="0">h</tspan>
+                                <tspan x="15.47" y="0">a</tspan>
+                                <tspan x="23.45" y="0">h</tspan>
+                                <tspan x="30.95" y="0">on</tspan>
+                                <tspan x="52.17" y="0">Y</tspan>
+                                <tspan x="59.18" y="0">o</tspan>
+                                <tspan x="66.78" y="0">thin</tspan>
+                            </text>
+                            <text class="b4 label-th blue-line" transform="translate(1111.34 180.39)">พหลโยธิน</text>
+                            <circle id="b4" class="station" cx="1151.6" cy="221.73" r="10"/>
+                            <text class="b2 label-en blue-line" transform="translate(914.34 267.04)">
+                                <tspan>K</tspan>
+                                <tspan x="7.24" y="0">amp</tspan>
+                                <tspan x="33.7" y="0">ha</tspan>
+                                <tspan x="48.98" y="0">eng Phet</tspan>
+                            </text>
+                            <text class="b2 label-th blue-line" transform="translate(917.43 247.64)">กำแพงเพชร</text>
+                            <circle id="b2" class="station" cx="967.93" cy="290.71" r="10"/>
+                            <text class="b1 label-en blue-line" transform="translate(854.2 347.11)">Bang
+                                <tspan x="37.6" y="0">S</tspan>
+                                <tspan x="44.95" y="0">ue</tspan>
+                            </text>
+                            <text class="b1 label-th blue-line" transform="translate(856.1 329.33)">บางซื่อ</text>
+                            <circle id="b1" class="station" cx="884.37" cy="290.71" r="10"/>
+                            <text class="bp label-en blue-line" transform="translate(769.7 386.53)">
+                                <tspan>T</tspan>
+                                <tspan x="5.97" y="0">a</tspan>
+                                <tspan x="13.62" y="0">o</tspan>
+                                <tspan x="27.14" y="0">P</tspan>
+                                <tspan x="34.53" y="0">o</tspan>
+                                <tspan x="42.26" y="0">on</tspan>
+                            </text>
+                            <text class="bp label-th blue-line" transform="translate(772.43 366.69)">เตาปูน</text>
+                            <path id="bp" class="station"
+                                  d="M845.55,353.89a10,10,0,0,0-9.1,14.12,9.76,9.76,0,0,0-2.66-.37,10,10,0,1,0,9.1,5.88,10.17,10.17,0,0,0,2.66.37,10,10,0,0,0,0-20Z"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <text class="p1 label-en purple-line" transform="translate(810.47 267.04)">Bang
+                                <tspan x="37.6" y="0">S</tspan>
+                                <tspan x="44.95" y="0">on</tspan>
+                            </text>
+                            <text class="p1 label-th purple-line" transform="translate(810.47 250.89)">บางซ่อน</text>
+                            <circle id="p1" class="station" cx="781.39" cy="254.04" r="10"/>
+                            <text class="p2 label-en purple-line" transform="translate(776.85 227.85)">
+                                <tspan>W</tspan>
+                                <tspan x="10.52" y="0">ong</tspan>
+                                <tspan x="39.73" y="0">S</tspan>
+                                <tspan x="47.09" y="0">a</tspan>
+                                <tspan x="54.74" y="0">w</tspan>
+                                <tspan x="64.06" y="0">ang</tspan>
+                            </text>
+                            <text class="p2 label-th purple-line" transform="translate(776.85 211.41)">วงศ์สว่าง</text>
+                            <circle id="p2" class="station" cx="743.7" cy="217.14" r="10"/>
+                            <text class="p3 label-en purple-line" transform="translate(735.48 186.5)">
+                                <tspan>Y</tspan>
+                                <tspan x="7.01" y="0">a</tspan>
+                                <tspan x="14.79" y="0">ek</tspan>
+                                <tspan x="35.13" y="0">T</tspan>
+                                <tspan x="42.26" y="0">i</tspan>
+                                <tspan x="45.43" y="0">w</tspan>
+                                <tspan x="54.76" y="0">a</tspan>
+                                <tspan x="62.74" y="0">n</tspan>
+                                <tspan x="70.24" y="0">on</tspan>
+                            </text>
+                            <text class="p3 label-th purple-line" transform="translate(735.48 170.98)">แยกติวานนท์</text>
+                            <circle id="p3" class="station" cx="706.72" cy="180.79" r="10"/>
+                            <text class="p4 label-en purple-line" transform="translate(733.7 143.74)">Mini
+                                <tspan x="24.28" y="0">s</tspan>
+                                <tspan x="30.77" y="0">try</tspan>
+                                <tspan x="54.79" y="0">o</tspan>
+                                <tspan x="62.4" y="0">f</tspan>
+                                <tspan x="73.33" y="0">P</tspan>
+                                <tspan x="80.85" y="0">ublic Health</tspan>
+                            </text>
+                            <text class="p4 label-th purple-line" transform="translate(733.7 127.51)">กระทรวงสาธารณะสุข</text>
+                            <circle id="p4" class="station" cx="702.97" cy="131.25" r="10"/>
+                            <text class="p5 label-en purple-line" transform="translate(681.56 74.73)">Nont
+                                <tspan x="30.6" y="0">h</tspan>
+                                <tspan x="38.1" y="0">a</tspan>
+                                <tspan x="46.08" y="0">b</tspan>
+                                <tspan x="53.75" y="0">uri Civic</tspan>
+                                <tspan x="110.85" y="0">C</tspan>
+                                <tspan x="119.05" y="0">enter</tspan>
+                            </text>
+                            <text class="p5 label-th purple-line" transform="translate(681.56 56.85)">ศูนย์ราชการนนทบุรี</text>
+                            <circle id="p5" class="station" cx="687.16" cy="98.44" r="10"/>
+                            <text class="p6 label-en purple-line" transform="translate(653.4 206.24) rotate(-90)">Bang
+                                <tspan x="37.6" y="0">K</tspan>
+                                <tspan x="45.36" y="0">r</tspan>
+                                <tspan x="50.48" y="0">a</tspan>
+                                <tspan x="58.14" y="0">s</tspan>
+                                <tspan x="64.62" y="0">or</tspan>
+                            </text>
+                            <text class="p6 label-th purple-line" transform="translate(636.12 215.55) rotate(-90)">บางกระสอ</text>
+                            <circle id="p6" class="station" cx="629.85" cy="98.44" r="10"/>
+                            <text class="p7 label-en purple-line" transform="translate(594.43 244.63) rotate(-90)">
+                                <tspan>Y</tspan>
+                                <tspan x="7.01" y="0">a</tspan>
+                                <tspan x="14.79" y="0">ek Nont</tspan>
+                                <tspan x="65.73" y="0">h</tspan>
+                                <tspan x="73.23" y="0">a</tspan>
+                                <tspan x="81.21" y="0">b</tspan>
+                                <tspan x="88.88" y="0">uri 1</tspan>
+                            </text>
+                            <text class="p7 label-th purple-line" transform="translate(576.3 241.85) rotate(-90)">แยกนนทบุรี 1</text>
+                            <circle id="p7" class="station" cx="570.54" cy="98.44" r="10"/>
+                            <text class="p8 label-en purple-line" transform="translate(533.45 272.38) rotate(-90)">Phra Nang kl
+                                <tspan x="82.42" y="0">a</tspan>
+                                <tspan x="90.08" y="0">o Bri</tspan>
+                                <tspan x="120.35" y="0">d</tspan>
+                                <tspan x="128.15" y="0">ge</tspan>
+                            </text>
+                            <text class="p8 label-th purple-line" transform="translate(516.49 277.69) rotate(-90)">สะพานพระนั่งเกล้า</text>
+                            <circle id="p8" class="station" cx="510.22" cy="98.44" r="10"/>
+                            <text class="p9 label-en purple-line" transform="translate(473.3 170.63) rotate(-90)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">ai Ma</tspan>
+                            </text>
+                            <text class="p9 label-th purple-line" transform="translate(455.74 179.21) rotate(-90)">ไทรม้า</text>
+                            <circle id="p9" class="station" cx="449.47" cy="98.44" r="10"/>
+                            <text class="p10 label-en purple-line" transform="translate(413.37 257.05) rotate(-90)">Bang
+                                <tspan x="37.6" y="0">R</tspan>
+                                <tspan x="45.24" y="0">ak Noi T</tspan>
+                                <tspan x="98.97" y="0">h</tspan>
+                                <tspan x="106.47" y="0">a It</tspan>
+                            </text>
+                            <text class="p10 label-th purple-line" transform="translate(393.57 265.41) rotate(-90)">บางรักน้อยท่าอิฐ</text>
+                            <circle id="p10" class="station" cx="387.31" cy="98.44" r="10"/>
+                            <text class="p11 label-en purple-line" transform="translate(352.32 212.35) rotate(-90)">Bang
+                                <tspan x="37.6" y="0">R</tspan>
+                                <tspan x="45.24" y="0">ak</tspan>
+                                <tspan x="65.75" y="0">Y</tspan>
+                                <tspan x="72.76" y="0">ai</tspan>
+                            </text>
+                            <text class="p11 label-th purple-line" transform="translate(331.41 223.61) rotate(-90)">บางรักใหญ่</text>
+                            <circle id="p11" class="station" cx="326.64" cy="98.44" r="10"/>
+                            <text class="p12 label-en purple-line" transform="translate(289.65 192.21) rotate(-90)">Bang Phlu</text>
+                            <text class="p12 label-th purple-line" transform="translate(270.58 187.97) rotate(-90)">บางพูล</text>
+                            <circle id="p12" class="station" cx="264.31" cy="98.44" r="10"/>
+                            <text class="p13 label-en purple-line" transform="translate(229.48 250.59) rotate(-90)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">am</tspan>
+                                <tspan x="31.28" y="0">Y</tspan>
+                                <tspan x="38.28" y="0">a</tspan>
+                                <tspan x="46.07" y="0">ek Bang</tspan>
+                                <tspan x="104" y="0">Y</tspan>
+                                <tspan x="111.01" y="0">ai</tspan>
+                            </text>
+                            <text class="p13 label-th purple-line" transform="translate(208.99 269.89) rotate(-90)">สามแยกบางใหญ่</text>
+                            <circle id="p13" class="station" cx="202.72" cy="98.44" r="10"/>
+                            <text class="p14 label-en purple-line" transform="translate(44.16 86)">
+                                <tspan>T</tspan>
+                                <tspan x="5.97" y="0">alad Bang</tspan>
+                                <tspan x="75.91" y="0">Y</tspan>
+                                <tspan x="82.91" y="0">ai</tspan>
+                            </text>
+                            <text class="p14 label-th purple-line" transform="translate(19.29 68.14)">ตลาดบางใหญ่</text>
+                            <circle id="p14" class="station" cx="169.22" cy="61.87" r="10"/>
+                            <text class="p15 label-en purple-line" transform="translate(26.41 33.8)">
+                                <tspan>K</tspan>
+                                <tspan x="7.76" y="0">hlong Bang P</tspan>
+                                <tspan x="93.16" y="0">h</tspan>
+                                <tspan x="100.66" y="0">ai</tspan>
+                            </text>
+                            <text class="p15 label-th purple-line" transform="translate(37.05 17.14)">คลองบางไผ่</text>
+                            <circle id="p15" class="station" cx="169.22" cy="14.54" r="10"/>
+                        </g>
+                        <g id="arl">
+                            <path id="a1-a2" class="path city-line"
+                                  d="M1836.08,606.3A27,27,0,0,1,1855,614l51.57,50.24A18,18,0,0,1,1912,677.1v3.16"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="a2-a3" class="path city-line" x1="1696.1" y1="559.54" x2="1801" y2="559.54"/>
+                            <line id="a3-a4" class="path city-line" x1="1592.6" y1="559.54" x2="1696.1" y2="559.54"/>
+                            <line id="a4-a5" class="path city-line" x1="1492.97" y1="559.54" x2="1592.6" y2="559.54"/>
+                            <line id="a5-a6-a6" class="path city-line" x1="1313.97" y1="559.54" x2="1492.97" y2="559.54"/>
+                            <line id="a5-a6-c" class="path city-line" x1="1304.02" y1="559.54" x2="1313.97" y2="559.54"/>
+                            <line id="a5-a6-a5" class="path city-line" x1="1291.1" y1="559.54" x2="1304.02" y2="559.54"/>
+                            <line id="a6-a7" class="path city-line" x1="1189.35" y1="559.54" x2="1291.1" y2="559.54"/>
+                            <line id="a7-a8" class="path city-line" x1="1093.39" y1="559.54" x2="1189.35" y2="559.54"/>
+                            <text class="a7 label-en city-line" transform="translate(1206.91 539.77) rotate(-90)">
+                                <tspan>R</tspan>
+                                <tspan x="7.64" y="0">a</tspan>
+                                <tspan x="15.3" y="0">t</tspan>
+                                <tspan x="20.63" y="0">c</tspan>
+                                <tspan x="28" y="0">h</tspan>
+                                <tspan x="35.5" y="0">aprarop</tspan>
+                            </text>
+                            <text class="a7 label-th city-line" transform="translate(1189.21 539.77) rotate(-90)">ราชปรารภ</text>
+                            <circle id="a7" class="station" cx="1189.35" cy="559.54" r="10"/>
+                            <text class="a5 label-en city-line" transform="translate(1465.4 538.86)">H
+                                <tspan x="9.02" y="0">u</tspan>
+                                <tspan x="16.42" y="0">a Mak</tspan>
+                            </text>
+                            <text class="a5 label-th city-line" transform="translate(1459.01 521.16)">หัวหมาก</text>
+                            <circle id="a5" class="station" cx="1492.97" cy="559.54" r="10"/>
+                            <text class="a4 label-en city-line" transform="translate(1543.64 539.05)">
+                                <tspan>R</tspan>
+                                <tspan x="7.64" y="0">amk</tspan>
+                                <tspan x="33.18" y="0">h</tspan>
+                                <tspan x="40.68" y="0">am</tspan>
+                                <tspan x="59.14" y="0">ha</tspan>
+                                <tspan x="74.42" y="0">eng</tspan>
+                            </text>
+                            <text class="a4 label-th city-line" transform="translate(1548.56 521.16)">รามคำแหง</text>
+                            <circle id="a4" class="station" cx="1592.6" cy="559.54" r="10"/>
+                            <text class="a3 label-en city-line" transform="translate(1650.72 538.86)">Ban T
+                                <tspan x="37.06" y="0">h</tspan>
+                                <tspan x="44.56" y="0">a</tspan>
+                                <tspan x="52.55" y="0">p</tspan>
+                                <tspan x="60.22" y="0">c</tspan>
+                                <tspan x="67.59" y="0">h</tspan>
+                                <tspan x="75.09" y="0">ang</tspan>
+                            </text>
+                            <text class="a3 label-th city-line" transform="translate(1654.64 521.16)">บ้านทับช้าง</text>
+                            <circle id="a3" class="station" cx="1696.1" cy="559.54" r="10"/>
+                            <text class="a2 label-en city-line" transform="translate(1763.67 538.86)">
+                                <tspan>L</tspan>
+                                <tspan x="6.5" y="0">a</tspan>
+                                <tspan x="14.16" y="0">t</tspan>
+                                <tspan x="25.4" y="0">K</tspan>
+                                <tspan x="33.16" y="0">ra</tspan>
+                                <tspan x="46.27" y="0">b</tspan>
+                                <tspan x="53.94" y="0">ang</tspan>
+                            </text>
+                            <text class="a2 label-th city-line" transform="translate(1758.25 521.16)">ลาดกระบัง</text>
+                            <circle id="a2" class="station" cx="1802.47" cy="559.54" r="10"/>
+                            <text class="a1 label-en city-line" transform="translate(1710.5 657.69)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">u</tspan>
+                                <tspan x="14.62" y="0">v</tspan>
+                                <tspan x="21.57" y="0">ar</tspan>
+                                <tspan x="34.67" y="0">n</tspan>
+                                <tspan x="42.17" y="0">abhumi Air</tspan>
+                                <tspan x="110.29" y="0">p</tspan>
+                                <tspan x="117.96" y="0">ort</tspan>
+                            </text>
+                            <text class="a1 label-th city-line" transform="translate(1650.81 639.99)">ท่าอากาศยานสุวรรณภูมิ</text>
+                            <circle id="a1" class="station" cx="1876.87" cy="633.5" r="10"/>
+                        </g>
+                        <g id="bts">
+                            <line id="cen-w1" class="path silom-line" x1="1095.54" y1="700.37" x2="1031.85" y2="700.37"/>
+                            <path id="cen-s1" class="path silom-line" d="M1157.05,788.39v-32a9.21,9.21,0,0,0-9.21-9.22h-17.22"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="s1-s2-s1" class="path silom-line" x1="1121.97" y1="808.98" x2="1121.97" y2="741.62"/>
+                            <line id="s1-s2-c" class="path silom-line" x1="1121.97" y1="818.99" x2="1121.97" y2="808.98"/>
+                            <line id="s1-s2-s2" class="path silom-line" x1="1121.97" y1="829.01" x2="1121.97" y2="818.99"/>
+                            <path id="s2-s3" class="path silom-line" d="M1122.58,916l30.4-30.25a14.16,14.16,0,0,0,4.07-9.94"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="s3-s5" class="path silom-line" x1="1051.52" y1="905" x2="1087.5" y2="869.2"/>
+                            <line id="s5-s6" class="path silom-line" x1="1007.51" y1="948.79" x2="1051.52" y2="905"/>
+                            <line id="s6-s7" class="path silom-line" x1="966.23" y1="989.87" x2="1007.51" y2="948.79"/>
+                            <path id="s7-s8" class="path silom-line" d="M938.05,1050.14h40.1a23.25,23.25,0,0,0,16.39-6.77l6.77-6.73"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="s8-s9" class="path silom-line" x1="831.35" y1="1003.37" x2="902.97" y2="1003.37"/>
+                            <line id="s10-s9" class="path silom-line" x1="755.04" y1="1003.37" x2="831.35" y2="1003.37"/>
+                            <line id="s10-s11" class="path silom-line" x1="680.73" y1="1003.37" x2="755.04" y2="1003.37"/>
+                            <path id="s11-s12" class="path silom-line" d="M653.14,1017.55l55.94,30.86a14,14,0,0,0,6.73,1.73"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="e14-e15" class="path sukhumvit-line" x1="1661.49" y1="1089.1" x2="1661.49" y2="1144.65"/>
+                            <line id="e13-e14" class="path sukhumvit-line" x1="1661.49" y1="1035.1" x2="1661.49" y2="1089.1"/>
+                            <line id="e12-e13" class="path sukhumvit-line" x1="1661.49" y1="980.48" x2="1661.49" y2="1035.1"/>
+                            <path id="e11-e12" class="path sukhumvit-line" d="M1688.21,971.24a44.89,44.89,0,0,1,8.36,26.1v29.9"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="e10-e11" class="path sukhumvit-line" d="M1651.37,934.7l31.45,30.3a45.43,45.43,0,0,1,5.39,6.24"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="e10-e9" class="path sukhumvit-line" x1="1577.2" y1="850.28" x2="1616.29" y2="887.94"/>
+                            <line id="e8-e9" class="path sukhumvit-line" x1="1540.21" y1="814.64" x2="1577.2" y2="850.28"/>
+                            <line id="e7-e8" class="path sukhumvit-line" x1="1504.22" y1="779.96" x2="1540.21" y2="814.64"/>
+                            <line id="e6-e7" class="path sukhumvit-line" x1="1467.44" y1="744.53" x2="1504.22" y2="779.96"/>
+                            <line id="e5-e6" class="path sukhumvit-line" x1="1431.66" y1="710.06" x2="1467.44" y2="744.53"/>
+                            <path id="e4-e5-e5" class="path sukhumvit-line"
+                                  d="M1349.12,737.14h86.27a27.08,27.08,0,0,1,18.78,7.57l12.57,12.12"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="e4-e5-c" class="path sukhumvit-line" x1="1304.04" y1="690.37" x2="1314.04" y2="690.37"/>
+                            <line id="e4-e5-e4" class="path sukhumvit-line" x1="1290.22" y1="690.37" x2="1304.04" y2="690.37"/>
+                            <line id="e3-e4" class="path sukhumvit-line" x1="1245.29" y1="690.37" x2="1290.22" y2="690.37"/>
+                            <line id="e2-e3" class="path sukhumvit-line" x1="1198.97" y1="690.37" x2="1245.29" y2="690.37"/>
+                            <line id="e1-e2" class="path sukhumvit-line" x1="1148.91" y1="690.37" x2="1198.97" y2="690.37"/>
+                            <line id="cen-e1" class="path sukhumvit-line" x1="1095.54" y1="690.37" x2="1148.91" y2="690.37"/>
+                            <path id="cen-n1" class="path sukhumvit-line" d="M1107.68,681.24v45.17a10.73,10.73,0,0,0,10.73,10.73h12.21"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <line id="n1-n2" class="path sukhumvit-line" x1="1072.6" y1="578.04" x2="1072.6" y2="634.47"/>
+                            <line id="n2-n3" class="path sukhumvit-line" x1="1072.6" y1="510.75" x2="1072.6" y2="578.04"/>
+                            <line id="n3-n4" class="path sukhumvit-line" x1="1072.6" y1="451.12" x2="1072.6" y2="510.75"/>
+                            <line id="n4-n5" class="path sukhumvit-line" x1="1072.6" y1="395.37" x2="1072.6" y2="451.12"/>
+                            <line id="n5-n7" class="path sukhumvit-line" x1="1072.6" y1="341.5" x2="1072.6" y2="395.37"/>
+                            <line id="n7-n8-n7" class="path sukhumvit-line" x1="1072.6" y1="295.66" x2="1072.6" y2="341.5"/>
+                            <line id="n7-n8-c" class="path sukhumvit-line" x1="1072.6" y1="285.62" x2="1072.6" y2="295.66"/>
+                            <line id="n7-n8-n8" class="path sukhumvit-line" x1="1072.6" y1="246.37" x2="1072.6" y2="285.62"/>
+                            <text class="s12 label-en silom-line" transform="translate(527.73 996.34)">Bang
+                                <tspan x="37.6" y="0">W</tspan>
+                                <tspan x="48.11" y="0">a</tspan>
+                            </text>
+                            <text class="s12 label-th silom-line" transform="translate(519.2 977.06)">บางหว้า</text>
+                            <circle id="s12" class="station" cx="618.06" cy="970.79" r="10"/>
+                            <text class="s11 label-en silom-line" transform="translate(706.54 1097.99) rotate(-90)">
+                                <tspan>W</tspan>
+                                <tspan x="10.78" y="0">u</tspan>
+                                <tspan x="18.37" y="0">t</tspan>
+                                <tspan x="23.57" y="0">t</tspan>
+                                <tspan x="29.35" y="0">h</tspan>
+                                <tspan x="36.85" y="0">a</tspan>
+                                <tspan x="44.84" y="0">k</tspan>
+                                <tspan x="51.06" y="0">a</tspan>
+                                <tspan x="58.72" y="0">t</tspan>
+                            </text>
+                            <text class="s11 label-th silom-line" transform="translate(687 1106.16) rotate(-90)">วุฒากาศ</text>
+                            <circle id="s11" class="station" cx="682.6" cy="1003.37" r="10"/>
+                            <text class="s10 label-en silom-line" transform="translate(780.88 1095.44) rotate(-90)">
+                                <tspan>T</tspan>
+                                <tspan x="5.97" y="0">al</tspan>
+                                <tspan x="16.87" y="0">a</tspan>
+                                <tspan x="24.53" y="0">t Phlu</tspan>
+                            </text>
+                            <text class="s10 label-th silom-line" transform="translate(761.3 1106.52) rotate(-90)">ตลาดพูล</text>
+                            <circle id="s10" class="station" cx="755.04" cy="1003.37" r="10"/>
+                            <text class="s9 label-en silom-line" transform="translate(855.21 1094.14) rotate(-90)">P
+                                <tspan x="7.97" y="0">h</tspan>
+                                <tspan x="15.47" y="0">o Nimit</tspan>
+                            </text>
+                            <text class="s9 label-th silom-line" transform="translate(837.62 1113.62) rotate(-90)">โพธิ์นิมิตร</text>
+                            <circle id="s9" class="station" cx="831.35" cy="1003.37" r="10"/>
+                            <text class="s8 label-en silom-line" transform="translate(929.55 1119.34) rotate(-90)">
+                                <tspan>W</tspan>
+                                <tspan x="10.52" y="0">on</tspan>
+                                <tspan x="26.27" y="0">g</tspan>
+                                <tspan x="33.55" y="0">w</tspan>
+                                <tspan x="43.39" y="0">ian</tspan>
+                                <tspan x="67.7" y="0">Y</tspan>
+                                <tspan x="74.71" y="0">ai</tspan>
+                            </text>
+                            <text class="s8 label-th silom-line" transform="translate(909.24 1136.4) rotate(-90)">วงเวียนใหญ่</text>
+                            <circle id="s8" class="station" cx="902.97" cy="1003.37" r="10"/>
+                            <text class="s7 label-en silom-line" transform="translate(994.28 1129.38) rotate(-90)">
+                                <tspan>K</tspan>
+                                <tspan x="7.76" y="0">rung T</tspan>
+                                <tspan x="49.09" y="0">h</tspan>
+                                <tspan x="56.59" y="0">on</tspan>
+                                <tspan x="72.34" y="0">b</tspan>
+                                <tspan x="80.01" y="0">uri</tspan>
+                            </text>
+                            <text class="s7 label-th silom-line" transform="translate(972.49 1115.22) rotate(-90)">กรุงธนบุรี</text>
+                            <circle id="s7" class="station" cx="966.22" cy="989.87" r="10"/>
+                            <text class="s6 label-en silom-line" transform="translate(871.21 956.83)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">ap</tspan>
+                                <tspan x="23.33" y="0">h</tspan>
+                                <tspan x="30.84" y="0">an</tspan>
+                                <tspan x="51.97" y="0">T</tspan>
+                                <tspan x="57.94" y="0">ak Sin</tspan>
+                            </text>
+                            <text class="s6 label-th silom-line" transform="translate(855.35 940.83)">สะพานตากสิน</text>
+                            <circle id="s6" class="station" cx="1006.97" cy="948.25" r="10"/>
+                            <text class="s5 label-en silom-line" transform="translate(960.21 916.32)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">ur</tspan>
+                                <tspan x="20.07" y="0">a</tspan>
+                                <tspan x="27.73" y="0">s</tspan>
+                                <tspan x="33.98" y="0">ak</tspan>
+                            </text>
+                            <text class="s5 label-th silom-line" transform="translate(948.47 900.19)">สุรศักดิ์</text>
+                            <circle id="s5" class="station" cx="1051.35" cy="905" r="10"/>
+                            <text class="s3 label-en silom-line" transform="translate(976.36 870.67)">C
+                                <tspan x="8.79" y="0">h</tspan>
+                                <tspan x="16.29" y="0">ong Nonsi</tspan>
+                            </text>
+                            <text class="s3 label-th silom-line" transform="translate(973.49 855.43)">ช่องนนทรี</text>
+                            <circle id="s3" class="station" cx="1087.41" cy="869.37" r="10"/>
+                            <text class="s1 label-en silom-line" transform="translate(1146.41 749.59)">
+                                <tspan>R</tspan>
+                                <tspan x="7.64" y="0">a</tspan>
+                                <tspan x="15.3" y="0">t</tspan>
+                                <tspan x="20.63" y="0">c</tspan>
+                                <tspan x="28" y="0">h</tspan>
+                                <tspan x="35.5" y="0">a</tspan>
+                                <tspan x="43.48" y="0">d</tspan>
+                                <tspan x="51.28" y="0">amri</tspan>
+                            </text>
+                            <text class="s1 label-th silom-line" transform="translate(1146.41 734.8)">ราชดำริ</text>
+                            <circle id="s1" class="station" cx="1121.97" cy="741.62" r="10"/>
+                            <text class="w1 label-en silom-line" transform="translate(898.67 724.33)">N
+                                <tspan x="9.06" y="0">a</tspan>
+                                <tspan x="16.72" y="0">tio</tspan>
+                                <tspan x="33.73" y="0">n</tspan>
+                                <tspan x="41.24" y="0">al</tspan>
+                                <tspan x="57.6" y="0">St</tspan>
+                                <tspan x="70.03" y="0">adium</tspan>
+                            </text>
+                            <text class="w1 label-th silom-line" transform="translate(857 706.63)">สนามกีฬาแห่งชาติ</text>
+                            <circle id="w1" class="station" cx="1031.85" cy="700.37" r="10"/>
+                            <text class="e15 label-en sukhumvit-line" transform="translate(1684.97 1169.92)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">amrong</tspan>
+                            </text>
+                            <text class="e15 label-th sukhumvit-line" transform="translate(1684.97 1150.91)">สำโรง</text>
+                            <circle id="e15" class="station" cx="1661.49" cy="1144.65" r="10"/>
+                            <text class="e14 label-en sukhumvit-line" transform="translate(1684.97 1112.87)">Bearing</text>
+                            <text class="e14 label-th sukhumvit-line" transform="translate(1684.97 1095.37)">แบริ่ง</text>
+                            <circle id="e14" class="station" cx="1661.49" cy="1089.1" r="10"/>
+                            <text class="e13 label-en sukhumvit-line" transform="translate(1684.97 1058.58)">Bang
+                                <tspan x="37.6" y="0">n</tspan>
+                                <tspan x="45.1" y="0">a</tspan>
+                            </text>
+                            <text class="e13 label-th sukhumvit-line" transform="translate(1684.97 1041.37)">บางนา</text>
+                            <circle id="e13" class="station" cx="1661.49" cy="1035.1" r="10"/>
+                            <text class="e12 label-en sukhumvit-line" transform="translate(1684.97 1003.03)">
+                                <tspan>U</tspan>
+                                <tspan x="8.72" y="0">d</tspan>
+                                <tspan x="16.52" y="0">om</tspan>
+                                <tspan x="40.52" y="0">S</tspan>
+                                <tspan x="47.88" y="0">uk</tspan>
+                            </text>
+                            <text class="e12 label-th sukhumvit-line" transform="translate(1684.97 986.75)">อุดมสุข</text>
+                            <circle id="e12" class="station" cx="1661.49" cy="980.48" r="10"/>
+                            <text class="e11 label-en sukhumvit-line" transform="translate(1684.97 947.01)">
+                                <tspan>P</tspan>
+                                <tspan x="7.51" y="0">un</tspan>
+                                <tspan x="22.8" y="0">n</tspan>
+                                <tspan x="30.3" y="0">aw</tspan>
+                                <tspan x="47.8" y="0">ithi</tspan>
+                            </text>
+                            <text class="e11 label-th sukhumvit-line" transform="translate(1684.97 930.93)">ปุณณวิถี</text>
+                            <circle id="e11" class="station" cx="1652.87" cy="924.67" r="10"/>
+                            <text class="e10 label-en sukhumvit-line" transform="translate(1653.13 899.27)">Bang C
+                                <tspan x="46.38" y="0">h</tspan>
+                                <tspan x="53.88" y="0">ak</tspan>
+                            </text>
+                            <text class="e10 label-th sukhumvit-line" transform="translate(1653.13 884.04)">บางจาก</text>
+                            <circle id="e10" class="station" cx="1616.32" cy="887.94" r="10"/>
+                            <text class="e9 label-en sukhumvit-line" transform="translate(1616.29 862.59)">On Nut</text>
+                            <text class="e9 label-th sukhumvit-line" transform="translate(1616.29 848.48)">อ่อนนุช</text>
+                            <circle id="e9" class="station" cx="1577.24" cy="850.24" r="10"/>
+                            <text class="e8 label-en sukhumvit-line" transform="translate(1575.77 821.41)">Phra
+                                <tspan x="34.23" y="0">K</tspan>
+                                <tspan x="41.99" y="0">h</tspan>
+                                <tspan x="49.49" y="0">a</tspan>
+                                <tspan x="57.47" y="0">n</tspan>
+                                <tspan x="64.97" y="0">ong</tspan>
+                            </text>
+                            <text class="e8 label-th sukhumvit-line" transform="translate(1575.77 805.93)">พระโขนง</text>
+                            <circle id="e8" class="station" cx="1540.86" cy="815.15" r="10"/>
+                            <text class="e7 label-en sukhumvit-line" transform="translate(1535.29 780.59)">Ek
+                                <tspan x="14.6" y="0">k</tspan>
+                                <tspan x="20.83" y="0">a</tspan>
+                                <tspan x="28.81" y="0">m</tspan>
+                                <tspan x="39.09" y="0">ai</tspan>
+                            </text>
+                            <text class="e7 label-th sukhumvit-line" transform="translate(1535.29 766.37)">เอกมัย</text>
+                            <circle id="e7" class="station" cx="1504.38" cy="779.96" r="10"/>
+                            <text class="e6 label-en sukhumvit-line" transform="translate(1492.07 742.13)">T
+                                <tspan x="7.46" y="0">h</tspan>
+                                <tspan x="14.96" y="0">ong</tspan>
+                                <tspan x="44.17" y="0">L</tspan>
+                                <tspan x="50.67" y="0">o</tspan>
+                            </text>
+                            <text class="e6 label-th sukhumvit-line" transform="translate(1492.07 728.18)">ทองหล่อ</text>
+                            <circle id="e6" class="station" cx="1467.65" cy="744.53" r="10"/>
+                            <text class="e5 label-en sukhumvit-line" transform="translate(1449.09 702.86)">Phrom P
+                                <tspan x="52.75" y="0">h</tspan>
+                                <tspan x="60.25" y="0">ong</tspan>
+                            </text>
+                            <text class="e5 label-th sukhumvit-line" transform="translate(1449.09 688.14)">พร้อมพงษ์</text>
+                            <circle id="e5" class="station" cx="1431.91" cy="710.06" r="10"/>
+                            <text class="e3 label-en sukhumvit-line" transform="translate(1269.25 666.45) rotate(-90)">Na
+                                <tspan x="17.04" y="0">n</tspan>
+                                <tspan x="24.54" y="0">a</tspan>
+                            </text>
+                            <text class="e3 label-th sukhumvit-line" transform="translate(1251.55 666.45) rotate(-90)">นานา</text>
+                            <circle id="e3" class="station" cx="1245.29" cy="690.37" r="10"/>
+                            <text class="e2 label-en sukhumvit-line" transform="translate(1222.94 666.45) rotate(-90)">Phloen Chit</text>
+                            <text class="e2 label-th sukhumvit-line" transform="translate(1205.24 666.45) rotate(-90)">เพลินจิต</text>
+                            <circle id="e2" class="station" cx="1198.97" cy="690.37" r="10"/>
+                            <text class="e1 label-en sukhumvit-line" transform="translate(1172.88 666.45) rotate(-90)">Chit
+                                <tspan x="30.9" y="0">L</tspan>
+                                <tspan x="37.4" y="0">om</tspan>
+                            </text>
+                            <text class="e1 label-th sukhumvit-line" transform="translate(1155.18 666.45) rotate(-90)">ชิดลม</text>
+                            <circle id="e1" class="station" cx="1148.91" cy="690.37" r="10"/>
+                            <text class="cen label-en sukhumvit-line" transform="translate(1121.18 666.45) rotate(-90)">Siam</text>
+                            <text class="cen label-th sukhumvit-line" transform="translate(1103.48 666.45) rotate(-90)">สยาม</text>
+                            <rect id="cen" class="station" x="1084.66" y="674.31" width="21.75" height="41.56" rx="10.88" ry="10.88"/>
+                            <text class="n1 label-en sukhumvit-line" transform="translate(967.35 657.56)">
+                                <tspan>R</tspan>
+                                <tspan x="7.64" y="0">a</tspan>
+                                <tspan x="15.3" y="0">t</tspan>
+                                <tspan x="20.63" y="0">c</tspan>
+                                <tspan x="28" y="0">h</tspan>
+                                <tspan x="35.5" y="0">a</tspan>
+                                <tspan x="43.16" y="0">the</tspan>
+                                <tspan x="64.44" y="0">w</tspan>
+                                <tspan x="74.28" y="0">i</tspan>
+                            </text>
+                            <text class="n1 label-th sukhumvit-line" transform="translate(984.67 640.74)">ราชเทวี</text>
+                            <circle id="n1" class="station" cx="1072.6" cy="634.47" r="10"/>
+                            <text class="n3 label-en sukhumvit-line" transform="translate(928.74 534.88)">
+                                <tspan>V</tspan>
+                                <tspan x="8.54" y="0">ic</tspan>
+                                <tspan x="19.08" y="0">t</tspan>
+                                <tspan x="24.41" y="0">ory Monument</tspan>
+                            </text>
+                            <text class="n3 label-th sukhumvit-line" transform="translate(882.11 516.88)">อนุสาวรีย์ชัยสมรภูมิ</text>
+                            <circle id="n3" class="station" cx="1072.6" cy="510.75" r="10"/>
+                            <text class="n4 label-en sukhumvit-line" transform="translate(975.08 475.17)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">a</tspan>
+                                <tspan x="15.34" y="0">n</tspan>
+                                <tspan x="22.84" y="0">am</tspan>
+                                <tspan x="46.76" y="0">P</tspan>
+                                <tspan x="54.01" y="0">a</tspan>
+                                <tspan x="61.67" y="0">o</tspan>
+                            </text>
+                            <text class="n4 label-th sukhumvit-line" transform="translate(971.91 457.39)">สนามเป้า</text>
+                            <circle id="n4" class="station" cx="1072.6" cy="451.12" r="10"/>
+                            <text class="n5 label-en sukhumvit-line" transform="translate(1027.06 418.22)">Ari</text>
+                            <text class="n5 label-th sukhumvit-line" transform="translate(1001.77 401.64)">อารีย์</text>
+                            <circle id="n5" class="station" cx="1072.6" cy="395.37" r="10"/>
+                            <text class="n7 label-en sukhumvit-line" transform="translate(957.23 367.25)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">ap</tspan>
+                                <tspan x="23.33" y="0">h</tspan>
+                                <tspan x="30.83" y="0">an</tspan>
+                                <tspan x="51.97" y="0">Kh</tspan>
+                                <tspan x="67.1" y="0">w</tspan>
+                                <tspan x="76.43" y="0">ai</tspan>
+                            </text>
+                            <text class="n7 label-th sukhumvit-line" transform="translate(946.87 349.14)">สะพานควาย</text>
+                            <circle id="n7" class="station" cx="1072.6" cy="341.5" r="10"/>
+                        </g>
+                        <g id="interchange">
+                            <path id="a8-n2" class="station"
+                                  d="M1128.39,615.68a10.26,10.26,0,0,1-3.1-.49l-7.83,7a10,10,0,1,1-9.78-7.93,9.86,9.86,0,0,1,3.09.5l7.84-7a9.44,9.44,0,0,1-.22-2.07,10,10,0,1,1,10,10Z"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="a6-b11" class="station"
+                                  d="M1344.12,619.83a9.92,9.92,0,0,0-1.55.13l-8.13-10.07a10,10,0,1,0-9.32,6.41,9.8,9.8,0,0,0,1.54-.13l8.13,10.07a10,10,0,1,0,9.33-6.41Z"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="b16-s2" class="station"
+                                  d="M1178,850.73a10,10,0,0,0-10,10,10.27,10.27,0,0,0,.19,1.93l-8,7a10.11,10.11,0,0,0-3.5-.64,10,10,0,1,0,10,10,9.9,9.9,0,0,0-.14-1.64l8.2-7.15a10.13,10.13,0,0,0,3.23.54,10,10,0,0,0,0-20Z"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="b12-e4" class="station"
+                                  d="M1325.12,727.21a9.74,9.74,0,0,1,1.72.16l8.14-9.69a10,10,0,1,1,9.39,6.58,9.85,9.85,0,0,1-1.73-.16l-8.13,9.7a10.1,10.1,0,0,1,.61,3.41,10,10,0,1,1-10-10Z"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <path id="b3-n8" class="station"
+                                  d="M1129.16,312.61a10,10,0,0,0-9.67-5.33l-4.08-7.8a10,10,0,1,0-7.73,3.66c.27,0,.54,0,.81,0l4.08,7.8a10,10,0,1,0,16.59,1.71Z"
+                                  transform="translate(-35.08 -46.76)"/>
+                            <text class="b16 label-en blue-line" transform="translate(1146.41 791.89)">Si
+                                <tspan x="16.18" y="0">L</tspan>
+                                <tspan x="22.68" y="0">om</tspan>
+                            </text>
+                            <text class="b16 label-th blue-line" transform="translate(1146.41 777.53)">สีลม</text>
+                            <circle id="b16" class="station" cx="1142.89" cy="813.98" r="10"/>
+                            <text class="b12 label-en blue-line" transform="translate(1334.49 668.54)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">ukhu</tspan>
+                                <tspan x="37.31" y="0">m</tspan>
+                                <tspan x="47.46" y="0">vit</tspan>
+                            </text>
+                            <text class="b12 label-th blue-line" transform="translate(1334.49 651.98)">สุขุมวิท</text>
+                            <circle id="b12" class="station" cx="1309.29" cy="667.5" r="10"/>
+                            <text class="b11 label-en blue-line" transform="translate(1334.49 611.65)">Phe
+                                <tspan x="23.46" y="0">t</tspan>
+                                <tspan x="28.79" y="0">c</tspan>
+                                <tspan x="36.16" y="0">h</tspan>
+                                <tspan x="43.67" y="0">a</tspan>
+                                <tspan x="51.65" y="0">b</tspan>
+                                <tspan x="59.32" y="0">uri</tspan>
+                            </text>
+                            <text class="b11 label-th blue-line" transform="translate(1334.49 595.99)">เพชรบุรี</text>
+                            <circle id="b11" class="station" cx="1308.99" cy="583.06" r="10"/>
+                            <text class="b3 label-en blue-line" transform="translate(1112.14 292.13)">C
+                                <tspan x="8.79" y="0">h</tspan>
+                                <tspan x="16.29" y="0">at</tspan>
+                                <tspan x="29.41" y="0">uc</tspan>
+                                <tspan x="44.37" y="0">h</tspan>
+                                <tspan x="51.87" y="0">ak</tspan>
+                                <tspan x="72.38" y="0">P</tspan>
+                                <tspan x="79.64" y="0">ark</tspan>
+                            </text>
+                            <text class="b3 label-th blue-line" transform="translate(1112.14 275.15)">สวนจัตุจักร</text>
+                            <circle id="b3" class="station" cx="1085.22" cy="270.48" r="10"/>
+                            <text class="a8 label-en city-line" transform="translate(1133.39 539.77) rotate(-90)">P
+                                <tspan x="7.97" y="0">h</tspan>
+                                <tspan x="15.47" y="0">a</tspan>
+                                <tspan x="22.87" y="0">ya T</tspan>
+                                <tspan x="51.43" y="0">h</tspan>
+                                <tspan x="58.93" y="0">ai</tspan>
+                            </text>
+                            <text class="a8 label-th city-line" transform="translate(1115.68 539.77) rotate(-90)">พญาไท</text>
+                            <circle id="a8" class="station" cx="1093.39" cy="558.91" r="10"/>
+                            <text class="a6 label-en city-line" transform="translate(1280.14 539.77) rotate(-90)">Mak
+                                <tspan x="25.3" y="0">k</tspan>
+                                <tspan x="31.52" y="0">a</tspan>
+                                <tspan x="39.18" y="0">s</tspan>
+                                <tspan x="45.44" y="0">an</tspan>
+                            </text>
+                            <text class="a6 label-th city-line" transform="translate(1262.44 539.77) rotate(-90)">มักกะสัน</text>
+                            <circle id="a6" class="station" cx="1290.04" cy="559.54" r="10"/>
+                            <text class="s2 label-en silom-line" transform="translate(1149.12 931.66) rotate(-90)">
+                                <tspan>S</tspan>
+                                <tspan x="7.36" y="0">ala</tspan>
+                                <tspan x="31.71" y="0">D</tspan>
+                                <tspan x="40.16" y="0">a</tspan>
+                                <tspan x="47.94" y="0">eng</tspan>
+                            </text>
+                            <text class="s2 label-th silom-line" transform="translate(1132.24 938.81) rotate(-90)">ศาลาแดง</text>
+                            <circle id="s2" class="station" cx="1121.61" cy="832.22" r="10"/>
+                            <text class="e4 label-en sukhumvit-line" transform="translate(1258.16 741.97)">A
+                                <tspan x="9.45" y="0">s</tspan>
+                                <tspan x="15.94" y="0">ok</tspan>
+                            </text>
+                            <text class="e4 label-th sukhumvit-line" transform="translate(1245.73 728.78)">อโศก</text>
+                            <circle id="e4" class="station" cx="1290.22" cy="690.45" r="10"/>
+                            <text class="n2 label-en sukhumvit-line" transform="translate(974.73 600.65)">P
+                                <tspan x="7.97" y="0">h</tspan>
+                                <tspan x="15.47" y="0">a</tspan>
+                                <tspan x="22.87" y="0">ya T</tspan>
+                                <tspan x="51.43" y="0">h</tspan>
+                                <tspan x="58.93" y="0">ai</tspan>
+                            </text>
+                            <text class="n2 label-th sukhumvit-line" transform="translate(983.79 582.31)">พญาไท</text>
+                            <circle id="n2" class="station" cx="1072.6" cy="577.54" r="10"/>
+                            <text class="n8 label-en sukhumvit-line" transform="translate(1029.28 225.87)">Mo Chit</text>
+                            <text class="n8 label-th sukhumvit-line" transform="translate(1018.04 210.27)">หมอชิต</text>
+                            <circle id="n8" class="station" cx="1072.6" cy="246.37" r="10"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/result.js"></script>
+</body>
+</html>

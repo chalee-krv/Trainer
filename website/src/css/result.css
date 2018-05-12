@@ -1,0 +1,169 @@
+body {
+    background-image: url("../images/bg/result.png");
+    background-size: auto;
+}
+
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+.content {
+    display: flex;
+    height: calc(100% - 72px);
+    padding: 20px;
+}
+
+.result-l {
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.result-r {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.time-container {
+    height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    flex: 1;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.map-container.grabbing {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.path {
+    fill: none;
+    stroke: #C0C0C0;
+    stroke-width: 10px;
+    stroke-miterlimit: 10;
+}
+
+.path[hide] {
+    opacity: 0;
+}
+
+[active] .path.blue-line, .path.blue-line[active] {
+    stroke: #332D49;
+}
+
+[active] .path.purple-line, .path.purple-line[active] {
+    stroke: #775393;
+}
+
+[active] .path.city-line, .path.city-line[active] {
+    stroke: #F0645C;
+}
+
+[active] .path.silom-line, .path.silom-line[active] {
+    stroke: #355C39;
+}
+
+[active] .path.sukhumvit-line, .path.sukhumvit-line[active] {
+    stroke: #7CB142;
+}
+
+.label-en {
+    fill: #808080;
+    font-size: 13px;
+    font-family: Mitr, sans-serif;
+    font-weight: 300;
+}
+
+.label-th {
+    fill: #808080;
+    font-size: 20px;
+    font-family: Mitr, sans-serif;
+}
+
+[active] .label-en.blue-line, [active] .label-th.blue-line, .label-en.blue-line[active], .label-th.blue-line[active] {
+    fill: #332D49;
+}
+
+[active] .label-en.purple-line, [active] .label-th.purple-line, .label-en.purple-line[active], .label-th.purple-line[active] {
+    fill: #775393;
+}
+
+[active] .label-en.city-line, [active] .label-th.city-line, .label-en.city-line[active], .label-th.city-line[active] {
+    fill: #F0645C;
+}
+
+[active] .label-en.silom-line, [active] .label-th.silom-line, .label-en.silom-line[active], .label-th.silom-line[active] {
+    fill: #355C39;
+}
+
+[active] .label-en.sukhumvit-line, [active] .label-th.sukhumvit-line, .label-en.sukhumvit-line[active], .label-th.sukhumvit-line[active] {
+    fill: #7CB142;
+}
+
+.station {
+    fill: white;
+    stroke: #808080;
+    stroke-width: 2px;
+    stroke-miterlimit: 10;
+    transition: all .5s;
+}
+
+[active] .station, .station[active] {
+    fill: white;
+    stroke: black;
+    transition: all .5s;
+}
+
+#interchange > circle.station {
+    opacity: 0;
+}
+
+#interchange > circle.station[active] {
+    opacity: 1;
+}
+
+.station:hover {
+    cursor: pointer;
+    stroke: darkred;
+    fill: tomato;
+    opacity: 1 !important;
+    transition: all .5s;
+}
+
+.station[clicked] {
+    cursor: pointer;
+    stroke: darkred;
+    stroke-width: 3px;
+    opacity: 1 !important;
+    animation: clicked .6s infinite;
+    animation-direction: alternate;
+    transition: all .5s;
+}
+
+@keyframes clicked {
+    from {
+        fill: tomato;
+    }
+    to {
+        fill: #FFC8A5;
+    }
+}
+
+.txt-9 {
+    font-size: 17px;
+}

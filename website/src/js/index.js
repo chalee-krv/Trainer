@@ -31,7 +31,7 @@ $.getJSON("data/map.json", function (data) {
         source: bts,
         templates: {
             header: '<h4 class="tt-header">BTS</h4>',
-            suggestion: Handlebars.compile('<div>{{name_EN}} – {{name_TH}}</div>')
+            suggestion: Handlebars.compile('<div onclick="bindAbbr(\'from\', \'{{abbr}}\')">{{name_EN}} – {{name_TH}}</div>')
         }
     }, {
         name: 'mrt-station',
@@ -39,7 +39,7 @@ $.getJSON("data/map.json", function (data) {
         source: mrt,
         templates: {
             header: '<h4 class="tt-header">MRT</h4>',
-            suggestion: Handlebars.compile('<div>{{name_EN}} – {{name_TH}}</div>')
+            suggestion: Handlebars.compile('<div onclick="bindAbbr(\'from\', \'{{abbr}}\')">{{name_EN}} – {{name_TH}}</div>')
         }
     }, {
         name: 'arl-station',
@@ -47,7 +47,7 @@ $.getJSON("data/map.json", function (data) {
         source: arl,
         templates: {
             header: '<h4 class="tt-header">Airport Rail Link</h4>',
-            suggestion: Handlebars.compile('<div>{{name_EN}} – {{name_TH}}</div>')
+            suggestion: Handlebars.compile('<div onclick="bindAbbr(\'from\', \'{{abbr}}\')">{{name_EN}} – {{name_TH}}</div>')
         }
     });
 
@@ -59,7 +59,7 @@ $.getJSON("data/map.json", function (data) {
         source: bts,
         templates: {
             header: '<h4 class="tt-header">BTS</h4>',
-            suggestion: Handlebars.compile('<div>{{name_EN}} – {{name_TH}}</div>')
+            suggestion: Handlebars.compile('<div onclick="bindAbbr(\'to\', \'{{abbr}}\')">{{name_EN}} – {{name_TH}}</div>')
         }
     }, {
         name: 'mrt-station',
@@ -67,7 +67,7 @@ $.getJSON("data/map.json", function (data) {
         source: mrt,
         templates: {
             header: '<h4 class="tt-header">MRT</h4>',
-            suggestion: Handlebars.compile('<div>{{name_EN}} – {{name_TH}}</div>')
+            suggestion: Handlebars.compile('<div onclick="bindAbbr(\'to\', \'{{abbr}}\')">{{name_EN}} – {{name_TH}}</div>')
         }
     }, {
         name: 'arl-station',
@@ -75,7 +75,7 @@ $.getJSON("data/map.json", function (data) {
         source: arl,
         templates: {
             header: '<h4 class="tt-header">Airport Rail Link</h4>',
-            suggestion: Handlebars.compile('<div>{{name_EN}} – {{name_TH}}</div>')
+            suggestion: Handlebars.compile('<div onclick="bindAbbr(\'to\', \'{{abbr}}\')">{{name_EN}} – {{name_TH}}</div>')
         }
     });
 });
@@ -109,7 +109,7 @@ $("#cal").click(function () {
     var as = $('.btn.active');
 
     if (isValid(from, to) && !isSame(from, to)) {
-        var url = '/result.html?from=' + from.val().trim() + '&to=' + to.val().trim() + '&as=' + (as.length ? as.attr('id') : 'money');
+        var url = './result.html?from=' + from.attr('abbr') + '&to=' + to.attr('abbr') + '&as=' + (as.length ? as.attr('id') : 'money');
         window.open(encodeURI(url), '_self');
     }
 });
@@ -140,4 +140,8 @@ function isSame(f, t) {
     }
 
     return false;
+}
+
+function bindAbbr(at, abbr) {
+    $('#' + at).attr('abbr', abbr);
 }

@@ -1,0 +1,724 @@
+[
+    {
+        "bp": {
+            "name": "Tao Poon",
+            "abbr": "bp",
+            "line": null,
+            "interchange": ["b", "p"],
+            "duration": {
+                "b": 2,
+                "p": 2
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:03",
+                "toTaoPoon": null,
+                "toKhlongBangPhai": "06:00"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:30",
+                "toTaoPoon": null,
+                "toKhlongBangPhai": "23:24"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Bang Sue",
+            "abbr": "b1",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:00",
+                "toTaoPoon": "06:06"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:34",
+                "toTaoPoon": "00:05"
+            }
+        },
+        "p": {
+            "name": "Bang Son",
+            "abbr": "p1",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:02",
+                "toTaoPoon": "06:05"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:26",
+                "toTaoPoon": "23:20"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Kamphaeng Phet",
+            "abbr": "b2",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:02",
+                "toTaoPoon": "06:04"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:37",
+                "toTaoPoon": "00:03"
+            }
+        },
+        "p": {
+            "name": "Wong Sawang",
+            "abbr": "p2",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:04",
+                "toTaoPoon": "06:02"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:28",
+                "toTaoPoon": "23:17"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Chatuchak Park",
+            "abbr": "b3",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": ["n8"],
+            "duration": {
+                "b": 2,
+                "n8": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:04",
+                "toTaoPoon": "06:02"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:38",
+                "toTaoPoon": "00:01"
+            }
+        },
+        "p": {
+            "name": "Yaek Tiwanon",
+            "abbr": "p3",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:06",
+                "toTaoPoon": "05:59"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:31",
+                "toTaoPoon": "23:15"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Phahon Yothin",
+            "abbr": "b4",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:01",
+                "toTaoPoon": "06:00"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:41",
+                "toTaoPoon": "23:59"
+            }
+        },
+        "p": {
+            "name": "Ministry of Public Health",
+            "abbr": "p4",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:08",
+                "toTaoPoon": "05:57"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:33",
+                "toTaoPoon": "23:12"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Lat Phrao",
+            "abbr": "b5",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:03",
+                "toTaoPoon": "06:04"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:43",
+                "toTaoPoon": "23:57"
+            }
+        },
+        "p": {
+            "name": "Nonthaburi Civic Center",
+            "abbr": "p5",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:11",
+                "toTaoPoon": "05:53"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:36",
+                "toTaoPoon": "23:09"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Ratchadaphisek",
+            "abbr": "b6",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:00",
+                "toTaoPoon": "06:02"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:44",
+                "toTaoPoon": "23:55"
+            }
+        },
+        "p": {
+            "name": "Bang Kraso",
+            "abbr": "p6",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:13",
+                "toTaoPoon": "05:51"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:38",
+                "toTaoPoon": "23:07"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Sutthisan",
+            "abbr": "b7",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:02",
+                "toTaoPoon": "06:00"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:46",
+                "toTaoPoon": "23:53"
+            }
+        },
+        "p": {
+            "name": "Yaek Nonthaburi 1",
+            "abbr": "p7",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:15",
+                "toTaoPoon": "05:49"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:40",
+                "toTaoPoon": "23:05"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Huai Khwang",
+            "abbr": "b8",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:04",
+                "toTaoPoon": "06:04"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:48",
+                "toTaoPoon": "23:51"
+            }
+        },
+        "p": {
+            "name": "Phra Nang klao Bridge",
+            "abbr": "p8",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:17",
+                "toTaoPoon": "05:46"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:43",
+                "toTaoPoon": "23:02"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Thailand Cultural Centre",
+            "abbr": "b9",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:01",
+                "toTaoPoon": "06:02"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:50",
+                "toTaoPoon": "23:49"
+            }
+        },
+        "p": {
+            "name": "Sai Ma",
+            "abbr": "p9",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:20",
+                "toTaoPoon": "05:44"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:45",
+                "toTaoPoon": "23:00"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Phra Ram 9",
+            "abbr": "b10",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:03",
+                "toTaoPoon": "06:03"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:52",
+                "toTaoPoon": "23:47"
+            }
+        },
+        "p": {
+            "name": "Bang Rak Noi Tha It",
+            "abbr": "p10",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:21",
+                "toTaoPoon": "05:42"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:47",
+                "toTaoPoon": "22:58"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Phetchaburi",
+            "abbr": "b11",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": ["a6"],
+            "duration": {
+                "b": 1,
+                "a6": 7
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:01",
+                "toTaoPoon": "06:01"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:54",
+                "toTaoPoon": "23:46"
+            }
+        },
+        "p": {
+            "name": "Bang Rak Yai",
+            "abbr": "p11",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:23",
+                "toTaoPoon": "05:39"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:49",
+                "toTaoPoon": "22:56"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Sukhumvit",
+            "abbr": "b12",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": "a12",
+            "duration": {
+                "b": 2,
+                "a12": 5
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:03",
+                "toTaoPoon": "06:05"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:56",
+                "toTaoPoon": "23:44"
+            }
+        },
+        "p": {
+            "name": "Bang Phlu",
+            "abbr": "p12",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:25",
+                "toTaoPoon": "05:37"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:51",
+                "toTaoPoon": "22:54"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Queen Sirikit National Convention Centre",
+            "abbr": "b13",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:00",
+                "toTaoPoon": "06:03"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "23:58",
+                "toTaoPoon": "23:41"
+            }
+        },
+        "p": {
+            "name": "Sam Yaek Bang Yai",
+            "abbr": "p13",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:28",
+                "toTaoPoon": "05:35"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:54",
+                "toTaoPoon": "22:51"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Khlong Toei",
+            "abbr": "b14",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:01",
+                "toTaoPoon": "06:01"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "00:00",
+                "toTaoPoon": "23:40"
+            }
+        },
+        "p": {
+            "name": "Talad Bang Yai",
+            "abbr": "p14",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 2
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": "06:30",
+                "toTaoPoon": "05:32"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": "23:57",
+                "toTaoPoon": "22:49"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Lumphini",
+            "abbr": "b15",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:03",
+                "toTaoPoon": "06:00"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "00:02",
+                "toTaoPoon": "23:38"
+            }
+        },
+        "p": {
+            "name": "Khlong Bang Phai",
+            "abbr": "p15",
+            "line": {
+                "TH": "สายสีม่วง",
+                "EN": "Purple Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": null
+            },
+            "firstTrain": {
+                "toKhlongBangPhai": null,
+                "toTaoPoon": "05:30"
+            },
+            "lastTrain": {
+                "toKhlongBangPhai": null,
+                "toTaoPoon": "22:47"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Si Lom",
+            "abbr": "b16",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": ["s2"],
+            "duration": {
+                "b": 1,
+                "s2": 5
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:01",
+                "toTaoPoon": "06:02"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "00:04",
+                "toTaoPoon": "23:36"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Sam Yan",
+            "abbr": "b17",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": 1
+            },
+            "firstTrain": {
+                "toHuaLamphong": "06:03",
+                "toTaoPoon": "06:00"
+            },
+            "lastTrain": {
+                "toHuaLamphong": "00:05",
+                "toTaoPoon": "23:34"
+            }
+        }
+    },
+    {
+        "b": {
+            "name": "Hua Lamphong",
+            "abbr": "b18",
+            "line": {
+                "TH": "สายสีน้ำเงิน",
+                "EN": "Blue Line"
+            },
+            "interchange": false,
+            "duration": {
+                "b": null
+            },
+            "firstTrain": {
+                "toHuaLamphong": null,
+                "toTaoPoon": "06:02"
+            },
+            "lastTrain": {
+                "toHuaLamphong": null,
+                "toTaoPoon": "23:32"
+            }
+        }
+    }
+]

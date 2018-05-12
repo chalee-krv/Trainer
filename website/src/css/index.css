@@ -40,7 +40,7 @@ body {
     background-color: transparent;
 }
 
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
     background-color: unset;
 }
 
@@ -55,13 +55,13 @@ body {
     min-width: 360px;
     top: 400px;
     margin-left: 40px;
-    font-family: Mitr;
+    font-family: Mitr, sans-serif;
     font-size: 18px;
     color: black;
 }
 
 .welcome > span {
-    font-family: "Mitr";
+    font-family: Mitr, sans-serif;
     font-size: 60px;
     font-weight: bold;
 }
@@ -138,7 +138,7 @@ body {
 }
 
 .des-txt {
-    font-family: Mitr;
+    font-family: Mitr, sans-serif;
     font-weight: 200;
     text-align: justify;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .form-location > label {
-    font-family: Mitr;
+    font-family: Mitr, sans-serif;
     font-size: 20px;
     font-weight: normal;
 }
@@ -162,7 +162,7 @@ body {
     position: relative;
     bottom: -5px;
     float: right;
-    font-family: Mitr;
+    font-family: Mitr, sans-serif;
     color: darkred;
     font-weight: 300;
 }

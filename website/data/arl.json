@@ -1,0 +1,181 @@
+[
+    null,
+    {
+        "a": {
+            "name": "Suvarnabhumi",
+            "abbr": "a1",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": false,
+            "duration": {
+                "a": 5
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": null,
+                "toPhayaThai": "05:31"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": null,
+                "toPhayaThai": "00:00"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Lat Krabang",
+            "abbr": "a2",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": false,
+            "duration": {
+                "a": 5
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:51",
+                "toPhayaThai": "05:36"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:21",
+                "toPhayaThai": "00:04"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Ban Thap Chang",
+            "abbr": "a3",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": false,
+            "duration": {
+                "a": 4
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:46",
+                "toPhayaThai": "05:41"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:16",
+                "toPhayaThai": "00:09"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Hua Mak",
+            "abbr": "a4",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": false,
+            "duration": {
+                "a": 4
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:42",
+                "toPhayaThai": "05:46"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:12",
+                "toPhayaThai": "00:14"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Ramkhamhaeng",
+            "abbr": "a5",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": false,
+            "duration": {
+                "a": 4
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:38",
+                "toPhayaThai": "05:51"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:07",
+                "toPhayaThai": "00:18"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Makkasan",
+            "abbr": "a6",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": true,
+            "duration": {
+                "a": 3,
+                "b11": 7
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:34",
+                "toPhayaThai": "05:55"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:03",
+                "toPhayaThai": "00:01"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Ratchaprarop",
+            "abbr": "a7",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": false,
+            "duration": {
+                "a": 1
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:58",
+                "toPhayaThai": "05:31"
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:01",
+                "toPhayaThai": "00:04"
+            }
+        }
+    },
+    {
+        "a": {
+            "name": "Phaya Thai",
+            "abbr": "a8",
+            "line": {
+                "TH": "ซิตี้ไลน์",
+                "EN": "City Line"
+            },
+            "interchange": ["n2"],
+            "duration": {
+                "a": null,
+                "n2": 2
+            },
+            "firstTrain": {
+                "toSuvarnabhumi": "05:30",
+                "toPhayaThai": null
+            },
+            "lastTrain": {
+                "toSuvarnabhumi": "00:00",
+                "toPhayaThai": null
+            }
+        }
+    }
+]

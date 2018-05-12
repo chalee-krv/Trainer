@@ -1,0 +1,750 @@
+[
+    {
+        "cen": {
+            "name": "Siam",
+            "abbr": "cen",
+            "line": null,
+            "interchange": ["n", "e", "w", "s"],
+            "duration": {
+                "n": 3,
+                "e": 2,
+                "w": 1,
+                "s": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05:29",
+                "toMoChit": "05:43",
+                "toBangWa": "05:31",
+                "toNationalStadium": "05:53"
+            },
+            "lastTrain": {
+                "toSamrong": "00:28",
+                "toMoChit": "00:28",
+                "toBangWa": "00:28",
+                "toNationalStadium": "00:28"
+            }
+        }
+    },
+    {
+        "n": {
+            "name": "Ratchathewi",
+            "abbr": "n1",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "n": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05:26",
+                "toMoChit": "05:45"
+            },
+            "lastTrain": {
+                "toSamrong": "00:25",
+                "toMoChit": "00:31"
+            }
+        },
+        "e": {
+            "name": "Chit Lom",
+            "abbr": "e1",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:31",
+                "toMoChit": "05:40"
+            },
+            "lastTrain": {
+                "toSamrong": "00:31",
+                "toMoChit": "00:25"
+            }
+        },
+        "w": {
+            "name": "National Stadium",
+            "abbr": "w1",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": null
+            },
+            "firstTrain": {
+                "toBangWa": "05:30",
+                "toNationalStadium": null
+            },
+            "lastTrain": {
+                "toBangWa": "00:24",
+                "toNationalStadium": null
+            }
+        },
+        "s": {
+            "name": "Ratchatdamri",
+            "abbr": "s1",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:34",
+                "toNationalStadium": "05:50"
+            },
+            "lastTrain": {
+                "toBangWa": "00:31",
+                "toNationalStadium": "00:22"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Phloen Chit",
+            "abbr": "e2",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:32",
+                "toMoChit": "05:39"
+            },
+            "lastTrain": {
+                "toSamrong": "00:32",
+                "toMoChit": "00:24"
+            }
+        },
+        "n": {
+            "name": "Phaya Thai",
+            "abbr": "n2",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": ["a8"],
+            "duration": {
+                "n": 2,
+                "a8": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:25",
+                "toMoChit": "05:47"
+            },
+            "lastTrain": {
+                "toSamrong": "00:24",
+                "toMoChit": "00:33"
+            }
+        },
+        "s": {
+            "name": "Sala Daeng",
+            "abbr": "s2",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": ["b16"],
+            "duration": {
+                "w": 2,
+                "b16": 5
+            },
+            "firstTrain": {
+                "toBangWa": "05:36",
+                "toNationalStadium": "05:47"
+            },
+            "lastTrain": {
+                "toBangWa": "00:32",
+                "toNationalStadium": "00:19"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Nana",
+            "abbr": "e3",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:34",
+                "toMoChit": "05:37"
+            },
+            "lastTrain": {
+                "toSamrong": "00:34",
+                "toMoChit": "00:22"
+            }
+        },
+        "n": {
+            "name": "Victory Monument",
+            "abbr": "n3",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "n": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:23",
+                "toMoChit": "05:48"
+            },
+            "lastTrain": {
+                "toSamrong": "00:22",
+                "toMoChit": "00:34"
+            }
+        },
+        "s": {
+            "name": "Chong Nonsi",
+            "abbr": "s3",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:38",
+                "toNationalStadium": "05:45"
+            },
+            "lastTrain": {
+                "toBangWa": "00:36",
+                "toNationalStadium": "00:17"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Asok",
+            "abbr": "e4",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": ["b12"],
+            "duration": {
+                "e": 2,
+                "b12": 5
+            },
+            "firstTrain": {
+                "toSamrong": "05:36",
+                "toMoChit": "05:36"
+            },
+            "lastTrain": {
+                "toSamrong": "00:36",
+                "toMoChit": "00:21"
+            }
+        },
+        "n": {
+            "name": "Sanam Pao",
+            "abbr": "n4",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "n": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:20",
+                "toMoChit": "05:51"
+            },
+            "lastTrain": {
+                "toSamrong": "00:19",
+                "toMoChit": "00:37"
+            }
+        },
+        "s": {
+            "name": "Suksa Witthaya",
+            "abbr": "s4"
+        }
+    },
+    {
+        "e": {
+            "name": "Phrom Phong",
+            "abbr": "e5",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05.38",
+                "toMoChit": "05:34"
+            },
+            "lastTrain": {
+                "toSamrong": "00:38",
+                "toMoChit": "00:19"
+            }
+        },
+        "n": {
+            "name": "Ari",
+            "abbr": "n5",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "n": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:19",
+                "toMoChit": "05:53"
+            },
+            "lastTrain": {
+                "toSamrong": "00:18",
+                "toMoChit": "00:39"
+            }
+        },
+        "s": {
+            "name": "Surasak",
+            "abbr": "s5",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:41",
+                "toNationalStadium": "05:43"
+            },
+            "lastTrain": {
+                "toBangWa": "00:38",
+                "toNationalStadium": "00:14"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Thong Lo",
+            "abbr": "e6",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:40",
+                "toMoChit": "05:32"
+            },
+            "lastTrain": {
+                "toSamrong": "00:40",
+                "toMoChit": "00:17"
+            }
+        },
+        "n": {
+            "name": "Sena Ruam",
+            "abbr": "n6"
+        },
+        "s": {
+            "name": "Saphan Taksin",
+            "abbr": "s6",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 3
+            },
+            "firstTrain": {
+                "toBangWa": "05:43",
+                "toNationalStadium": "05:41"
+            },
+            "lastTrain": {
+                "toBangWa": "00:40",
+                "toNationalStadium": "00:12"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Ekkamai",
+            "abbr": "e7",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:41",
+                "toMoChit": "05:30"
+            },
+            "lastTrain": {
+                "toSamrong": "00:41",
+                "toMoChit": "00:15"
+            }
+        },
+        "n": {
+            "name": "Saphan Khwai",
+            "abbr": "n7",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "n": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05:16",
+                "toMoChit": "05:55"
+            },
+            "lastTrain": {
+                "toSamrong": "00:15",
+                "toMoChit": "00:41"
+            }
+        },
+        "s": {
+            "name": "Krung Thon Buri",
+            "abbr": "s7",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:45",
+                "toNationalStadium": "05:39"
+            },
+            "lastTrain": {
+                "toBangWa": "00:42",
+                "toNationalStadium": "00:10"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Phra Khanong",
+            "abbr": "e8",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:43",
+                "toMoChit": "05:28"
+            },
+            "lastTrain": {
+                "toSamrong": "00:43",
+                "toMoChit": "00:13"
+            }
+        },
+        "n": {
+            "name": "Mo Chit",
+            "abbr": "n8",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": ["b3"],
+            "duration": {
+                "n": null,
+                "b3": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05:15",
+                "toMoChit": null
+            },
+            "lastTrain": {
+                "toSamrong": "00:14",
+                "toMoChit": null
+            }
+        },
+        "s": {
+            "name": "Wongwian Yai",
+            "abbr": "s8",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:47",
+                "toNationalStadium": "05:37"
+            },
+            "lastTrain": {
+                "toBangWa": "00:44",
+                "toNationalStadium": "00:08"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "On Nut",
+            "abbr": "e9",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:45",
+                "toMoChit": "05:26"
+            },
+            "lastTrain": {
+                "toSamrong": "00:45",
+                "toMoChit": "00:11"
+            }
+        },
+        "s": {
+            "name": "Pho Nimit",
+            "abbr": "s9",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:48",
+                "toNationalStadium": "05:35"
+            },
+            "lastTrain": {
+                "toBangWa": "00:46",
+                "toNationalStadium": "00:06"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Bang Chak",
+            "abbr": "e10",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": "05:47",
+                "toMoChit": "05:24"
+            },
+            "lastTrain": {
+                "toSamrong": "00:47",
+                "toMoChit": "00:09"
+            }
+        },
+        "s": {
+            "name": "Talat Phlu",
+            "abbr": "s10",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:50",
+                "toNationalStadium": "05:34"
+            },
+            "lastTrain": {
+                "toBangWa": "00:48",
+                "toNationalStadium": "00:04"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Punnawithi",
+            "abbr": "e11",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05:49",
+                "toMoChit": "05:23"
+            },
+            "lastTrain": {
+                "toSamrong": "00:49",
+                "toMoChit": "00:08"
+            }
+        },
+        "s": {
+            "name": "Wutthakat",
+            "abbr": "s11",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": 2
+            },
+            "firstTrain": {
+                "toBangWa": "05:52",
+                "toNationalStadium": "05:32"
+            },
+            "lastTrain": {
+                "toBangWa": "00:50",
+                "toNationalStadium": "00:02"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Udom Suk",
+            "abbr": "e12",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 3
+            },
+            "firstTrain": {
+                "toSamrong": "05:50",
+                "toMoChit": "05:21"
+            },
+            "lastTrain": {
+                "toSamrong": "00:50",
+                "toMoChit": "00:06"
+            }
+        },
+        "s": {
+            "name": "Bang Wa",
+            "abbr": "s12",
+            "line": {
+                "TH": "สายสีลม",
+                "EN": "Silom Line"
+            },
+            "interchange": false,
+            "duration": {
+                "w": null
+            },
+            "firstTrain": {
+                "toBangWa": null,
+                "toNationalStadium": "05:30"
+            },
+            "lastTrain": {
+                "toBangWa": null,
+                "toNationalStadium": "00:00"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Bang Na",
+            "abbr": "e13",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 1
+            },
+            "firstTrain": {
+                "toSamrong": "05:53",
+                "toMoChit": "05:18"
+            },
+            "lastTrain": {
+                "toSamrong": "00:53",
+                "toMoChit": "00:03"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Bearing",
+            "abbr": "e14",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": null
+            },
+            "firstTrain": {
+                "toSamrong": "05:55",
+                "toMoChit": "05:17"
+            },
+            "lastTrain": {
+                "toSamrong": "00:55",
+                "toMoChit": "00:02"
+            }
+        }
+    },
+    {
+        "e": {
+            "name": "Samrong",
+            "abbr": "e15",
+            "line": {
+                "TH": "สายสุขุมวิท",
+                "EN": "Sukhumvit Line"
+            },
+            "interchange": false,
+            "duration": {
+                "e": 2
+            },
+            "firstTrain": {
+                "toSamrong": null,
+                "toMoChit": "05:15"
+            },
+            "lastTrain": {
+                "toSamrong": null,
+                "toMoChit": "00:00"
+            }
+        }
+    }
+]
